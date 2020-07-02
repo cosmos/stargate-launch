@@ -12,6 +12,6 @@ If you’re running a block explorer, wallet, exchange, validator, or any other 
 
 Help us to get the word out–this is a major leap for the Cosmos Network and we want everyone on board 🚀
 
-[Week 1 Status](week1.md)
+[Week 1 Status July 2nd, 2020](week1.md)
 [Project Board](https://github.com/orgs/cosmosdevs/projects/1) 
 
