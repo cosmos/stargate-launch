@@ -1,5 +1,3 @@
-## Stargate Review meeting from June 30, 2020
-
 # Stargate Week 1
 
 
@@ -35,7 +33,7 @@ Anticipated API breaking is define in [ADR020](https://github.com/cosmos/cosmos-
 	Tendermint 0.34 Release
 
 #### SDK team
-     0.39 works and Cosmosd integration.
+     0.40 progres and Cosmosd integration.
      Coordinate with the IBC team around how upgrades interact with IBC
 
 ### Iqlusion team
@@ -44,7 +42,7 @@ Anticipated API breaking is define in [ADR020](https://github.com/cosmos/cosmos-
 
 ### Scope of Stargate
 
-Stargate is focused on the impact of Cosmos software changes on wallets, exchanges and blockexplorers. Stargate is **not** focused on the developer migration path for zones from 0.38.* -> 0.39.* or the Launchpad release of an 0.38 LTS.
+Stargate is focused on the impact of Cosmos software changes on wallets, exchanges and blockexplorers. Stargate is **not** focused on the developer migration path for zones from 0.38.* -> 0.40.* or the Launchpad release of an 0.39 LTS.
 
 ### Stargate Progress
 As of Week 1, Stargate has mitigated big engineering risks and is on track to prepare a governance proposal.
