@@ -21,7 +21,7 @@ Anticpated API breakage is defined in [ADR021](https://github.com/cosmos/cosmos-
 
 Proto Any Migration [Proto Any Tx migration · Issue #6213 · cosmos/cosmos-sdk · GitHub](https://github.com/cosmos/cosmos-sdk/issues/6213)
 
-Anticipated API breaking is define in [ADR020}(https://github.com/cosmos/cosmos-sdk/blob/master/docs/architecture/adr-020-protobuf-transaction-encoding.md)
+Anticipated API breaking is define in [ADR020](https://github.com/cosmos/cosmos-sdk/blob/master/docs/architecture/adr-020-protobuf-transaction-encoding.md)
 
 
 
