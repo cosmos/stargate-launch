@@ -38,3 +38,9 @@ Proto Any Migration [Proto Any Tx migration · Issue #6213 · cosmos/cosmos-sdk 
 ### Scope of Stargate
 
 Stargate is focused on the impact of Cosmos software changes on wallets, exchanges and blockexplorers. Stargate is **not** focused on the developer migration path for zones from 0.38.* -> 0.39.* or the Launchpad release of an 0.38 LTS.
+
+### Stargate Progress
+As of Week 1, Stargate is
+
+### What's Coming Next?
+There will be an overview of the direction that the Cosmos Hub is taking to upgrade itself. This will be a DRAFT governance proposal that will be prepared for voting on Cosmos Hub.
