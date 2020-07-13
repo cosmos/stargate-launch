@@ -2,8 +2,8 @@
 
 ## Key Activities
 
-* Stargate Proposal 1 is out. https://www.mintscan.io/proposals/27.
-* Iqlusion has begun out reach to initial integration partners.
+* Stargate Proposal 1 has launched for voting. https://www.mintscan.io/proposals/27.
+* Iqlusion has begun out reach to initial, champion integration partners.
 
 
 # Risk Mitigation activities
@@ -20,5 +20,6 @@ Planning for Tendermint 0.34-rc1. 0.34 rc-1 will be the Stargate version. All AP
 ### SDK team
 Mostly progress on launchpad this week
 ### Iqlusion team
+Stargate Project Management launched
 Governance proposal for Stargate finished.
-Planning with integration partners.
+Selection and planning with champion integration partners.
