@@ -23,3 +23,6 @@
 * Stargate Project Management launched
 * Governance proposal for Stargate finished.
 * Selection and planning with champion integration partners.
+
+
+![Distracted Devs](memes/distracted_devs.jpg)
