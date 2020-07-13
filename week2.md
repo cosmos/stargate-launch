@@ -14,12 +14,12 @@
 ## Workstreams
 
 ### IBC team
-Planning for network upgrades how they integrate with IBC
+* Planning for network upgrades how they integrate with IBC
 ### Tendermint Team
-Planning for Tendermint 0.34-rc1. 0.34 rc-1 will be the Stargate version. All APIs except evidence handling will be frozen for the RC
+* Planning for Tendermint 0.34-rc1. 0.34 rc-1 will be the Stargate version. * All APIs except evidence handling will be frozen for the RC
 ### SDK team
-Mostly progress on launchpad this week
+* Mostly progress on launchpad this week
 ### Iqlusion team
-Stargate Project Management launched
-Governance proposal for Stargate finished.
-Selection and planning with champion integration partners.
+* Stargate Project Management launched
+* Governance proposal for Stargate finished.
+* Selection and planning with champion integration partners.
