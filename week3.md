@@ -14,14 +14,12 @@ We are auditing the API changes this week: The most important discovery is the A
 ## Key Activities
 * Stargate Proposal 1 has reched 23% with 41MM ATOMs voting Yes. https://hubble.figment.network/cosmos/chains/cosmoshub-3/governance/proposals/27
 
-//TO DO Link to PR
-* Stargate IBC Support Matrix for Crypto-Exchanges created. Work in Progress on a flow of funds document for IBC.
+
+* [Stargate IBC Support Matrix](https://github.com/cosmosdevs/stargate/pull/7) for Crypto-Exchanges created. Work in Progress on a flow of funds document for IBC.
 
 * Regen & Cosmos SDK architecture review completed
 
 * Collection of Public keys will begin on July 27th for the Stargate Testnet.
-
-# Risk Mitigation activities
 
 
 ## Workstreams
