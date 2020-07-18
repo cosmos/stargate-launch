@@ -4,6 +4,7 @@
 
 * Stargate Proposal 1 has launched for voting. https://www.mintscan.io/proposals/27.
 * Iqlusion has begun out reach to initial, champion integration partners.
+* The AIB team did a great job with the Stargate landing [page](https://stargate.cosmos.network/) and [gifs](https://twitter.com/cosmos/status/1284069967307198464?s=20).
 
 
 # Risk Mitigation activities
