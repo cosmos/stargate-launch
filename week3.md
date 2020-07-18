@@ -8,7 +8,7 @@ There are three prequsites for Testenet launch and they are in progress:
 
 We were anticipating 0.34 Tendermint within this week.. However, it won't be available until next week, July 20, 2020.
 
-We are auditing the API changes this week: The most important discovery is the Amino JSON REST interface will be preserved, which substantially decreases the scope of integration changes. There will be 3 possible query interfaces to Stargate, REST-AMINO json, REST - GRPC Gateway JSON and GPRC>
+We are auditing the API changes this week: The most important discovery is the Amino JSON REST interface will be preserved, which substantially decreases the scope of integration changes. There will be 3 possible query interfaces to Stargate, REST-AMINO json, REST - GRPC Gateway JSON and GPRC.
 
 
 ## Key Activities
