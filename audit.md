@@ -29,7 +29,7 @@ This document is a simple review of the REST API endpoint changes between Cosmos
 ```"/staking/validators"```
 * **What Changed:** 
   * The field ```"unbonding_height"``` and ```"jailed"``` are no longer supported
-* Sample JSON:
+* **Sample JSON:**
 
         {
               "commission": {
