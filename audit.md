@@ -20,6 +20,7 @@ This document is a simple review of the REST API endpoint changes between Cosmos
   * Balances
 * Gov
 * Auth 
+* Distribution
 
 ### Audit Results
 #### Validators
@@ -39,8 +40,9 @@ This document is a simple review of the REST API endpoint changes between Cosmos
   * The old field ```“validator_address”``` is no longer used. A new field ```“validator_dst_address”``` and```“validator_src_address”``` replace this in the new ```“redelegation”``` field.
 
 
-* Sample JSON: 
-  
+
+* Sample JSON from master: 
+
         {
               "commission": {
                   "commission_rates": {
