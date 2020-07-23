@@ -57,6 +57,7 @@ This document is a simple review of the REST API endpoint changes between Cosmos
 
   }
 ```   
+#### Delegators
 * **Endpoint Name:** QueryDelegatorDelegations
 * **Endpoint Path:** ```"/staking/delegators/delegations"```
 * **What Changed:**
@@ -68,7 +69,7 @@ This document is a simple review of the REST API endpoint changes between Cosmos
 
 
 
-* Sample JSON from master: 
+** **Sample JSON:**
 ```JSON
       {
           "balance": {
@@ -99,7 +100,7 @@ This document is a simple review of the REST API endpoint changes between Cosmos
         * ```valdiator_dst_address```
         * ```validator_src_address```
 
-* Sample JSON
+* **Sample JSON:**
 ```JSON
 {
     "entries": [
@@ -130,11 +131,35 @@ This document is a simple review of the REST API endpoint changes between Cosmos
 ```
 <br/><br/>
 
-
 * **Endpoint Name:** QueryUnbondingDelegation
 * **Endpoint Path:**
 ```"/staking/unbondingDelegation"```
 * **What Changed:**
   * The old field ```“creation_height"``` is no longer supported.
 
-* Sample JSON<br/><br/>
+* **Sample JSON:**<br/><br/>
+
+#### Distributions
+* **Endpoint Name:** getQueriedValidatorOutstandingRewards
+* **Endpoint Path:**
+```"/distribution/validators/{validatorAddr}"```
+* **What Changed:**
+  * The new field ```“rewards"``` is the root level field for the output
+
+
+* **Sample JSON:**
+```JSON
+{
+  "rewards": [
+    {
+      "denom": "mytoken",
+      "amount": "3.000000000000000000"
+    },
+    {
+      "denom": "myothertoken",
+      "amount": "0.000000300000000000"
+    }
+  ]
+}
+```
+<br/><br/>
