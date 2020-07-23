@@ -99,7 +99,36 @@ This document is a simple review of the REST API endpoint changes between Cosmos
         * ```valdiator_dst_address```
         * ```validator_src_address```
 
-* Sample JSON<br/><br/>
+* Sample JSON
+```JSON
+{
+    "entries": [
+        {
+            "balance": "5",
+            "redelegation_entry": {
+                "completion_time": "1969-12-31T16:00:00-08:00",
+                "initial_balance": "5",
+                "shares_dst": "5.000000000000000000"
+            }
+        },
+        {
+            "balance": "5",
+            "redelegation_entry": {
+                "completion_time": "1969-12-31T16:00:00-08:00",
+                "initial_balance": "5",
+                "shares_dst": "5.000000000000000000"
+            }
+        }
+    ],
+    "redelegation": {
+        "delegator_address": "cosmos104yggz5x4ype50c59vu84ze2w36pc3swm2u698",
+        "entries": null,
+        "validator_dst_address": "cosmosvaloper1td8yl7g5662m0mpptaxjmcn9jtzvl0wgulvv23",
+        "validator_src_address": "cosmosvaloper1gqv70e79a8q0yz5s5qhsjhdl2c79496faer0vz"
+    }
+}
+```
+<br/><br/>
 
 
 * **Endpoint Name:** QueryUnbondingDelegation
