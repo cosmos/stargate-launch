@@ -28,20 +28,8 @@ This document is a simple review of the REST API endpoint changes between Cosmos
 * **Endpoint Path:**
 ```"/staking/validators"```
 * **What Changed:** 
-  * The field ```"unbonding_height"``` is no longer supported
-* Sample JSON<br/><br/>
-* **Endpoint Name:** QueryDelegatorDelegations
-* **Endpoint Path:** ```"/staking/delegators/delegations"```
-* ****What Changed:****
-  * ```“balance”``` now is no longer a number. It is a field with two values: ```"amount"``` and ```"Denom”```
-
-  * ```“delegator_address”``` is no longer a string. It’s a field called ```“delegation”``` with three values: ```"delegator_address", "shares", "validator_address"```
-
-  * The old field ```“validator_address”``` is no longer used. A new field ```“validator_dst_address”``` and```“validator_src_address”``` replace this in the new ```“redelegation”``` field.
-
-
-
-* Sample JSON from master: 
+  * The field ```"unbonding_height"``` and ```"jailed"``` are no longer supported
+* Sample JSON:
 
         {
               "commission": {
@@ -66,7 +54,21 @@ This document is a simple review of the REST API endpoint changes between Cosmos
               "status": 1,
               "tokens": "0",
               "unbonding_time": "1970-01-01T00:00:00Z"
+
           }
+          
+* **Endpoint Name:** QueryDelegatorDelegations
+* **Endpoint Path:** ```"/staking/delegators/delegations"```
+* ****What Changed:****
+  * ```“balance”``` now is no longer a number. It is a field with two values: ```"amount"``` and ```"Denom”```
+
+  * ```“delegator_address”``` is no longer a string. It’s a field called ```“delegation”``` with three values: ```"delegator_address", "shares", "validator_address"```
+
+  * The old field ```“validator_address”``` is no longer used. A new field ```“validator_dst_address”``` and```“validator_src_address”``` replace this in the new ```“redelegation”``` field.
+
+
+
+* Sample JSON from master: 
 
 <br/><br/>
 
