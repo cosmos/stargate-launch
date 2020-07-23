@@ -39,7 +39,34 @@ This document is a simple review of the REST API endpoint changes between Cosmos
   * The old field ```“validator_address”``` is no longer used. A new field ```“validator_dst_address”``` and```“validator_src_address”``` replace this in the new ```“redelegation”``` field.
 
 
-* Sample JSON<br/><br/>
+* Sample JSON: 
+  
+        {
+              "commission": {
+                  "commission_rates": {
+                      "max_change_rate": "0.000000000000000000",
+                      "max_rate": "0.000000000000000000",
+                      "rate": "0.000000000000000000"
+                  },
+                  "update_time": "1970-01-01T00:00:00Z"
+              },
+              "consensus_pubkey": "cosmosvalconspub1zcjduepqwuxd2yevzmsrmrjx2su8kdlk44eqfdzeqx27zejuen6m0nkcpzps0qavpw",
+              "delegator_shares": "0.000000000000000000",
+              "description": {
+                  "details": "security",
+                  "identity": "identity",
+                  "moniker": "moniker",
+                  "security_contact": "details",
+                  "website": "website"
+              },
+              "min_self_delegation": "1",
+              "operator_address": "cosmosvaloper1pcpl7xhxq0wm72e9ljls2sxr5h3vqwytnq44sr",
+              "status": 1,
+              "tokens": "0",
+              "unbonding_time": "1970-01-01T00:00:00Z"
+          }
+
+<br/><br/>
 
 * **Endpoint Name:** QueryRedelegations
 * **Endpoint Path:**
