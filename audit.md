@@ -142,9 +142,9 @@ This document is a simple review of the REST API endpoint changes between Cosmos
 #### Distributions
 * **Endpoint Name:** getQueriedValidatorOutstandingRewards
 * **Endpoint Path:**
-```"/distribution/validators/{validatorAddr}"```
+```"/distribution/validators/{validatorAddr}/outstanding_rewards"```
 * **What Changed:**
-  * The new field ```“rewards"``` is the root level field for the output
+  * The new field ```“rewards"``` is the new root level field for the output
 
 
 * **Sample JSON:**
@@ -163,3 +163,27 @@ This document is a simple review of the REST API endpoint changes between Cosmos
 }
 ```
 <br/><br/>
+
+* **Endpoint Name:** getQueriedValidatorCommission
+* **Endpoint Path:**
+```"/distribution/validators/{validatorAddr}"```
+* **What Changed:**
+  * The new field ```“commission"``` is the new root level field for the output
+
+
+* **Sample JSON:**
+```JSON
+  "commission": [
+    {
+      "denom": "token1",
+      "amount": "4.000000000000000000"
+    },
+    {
+      "denom": "token2",
+      "amount": "2.000000000000000000"
+    }
+  ]
+}
+```
+
+
