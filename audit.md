@@ -2,9 +2,19 @@
 ## How-To deal with Cosmos legacy interface in the Stargate
 
 ### Summary
-New chain features, post the Stargate launch will unlikely support AminoREST. You can stick with the legacy AminoREST and not change your code very much. However, you should work towards the support for the new interface because if you want to take advantage of the new features in Cosmos. This document will help you get there with a review of the AminoREST support in Stargate.
 
-This document is a simple review of the REST API endpoint changes between Cosmos SDK Master and Cosmos SDK v0.37.13
+The Cosmos Stargate Upgrade will provide 3 interfaces for sending and retrieving transactions.
+
+1. Legacy AMINO JSON REST API
+2. GRPC Clients
+3. GRPC Gateway JSON REST.
+
+The Legacy Amino interface provides an interface most similar to cosmoshub-2 and prior versions of the Cosmos SDK. This interface is available for both querying and sending transactions. It is implemented by executing Amino JSON serialization refliection over the new set of protobuf compatible structs.
+
+The core finding of this audit is that while changes to the underlying structs result in an interface that is close to the prior version.
+
+We would also like to emphasize the intent to deprecate the Amino interfaces in the the near future(~1 year). New features are unlikely to have Amino REST interfaces for them. We strongly reccomend working on a migration.
+
 
 ### The Cosmos SDK Versions audited
 [Cosmos SDK master](https://github.com/cosmos/cosmos-sdk)
@@ -21,6 +31,8 @@ This document is a simple review of the REST API endpoint changes between Cosmos
 * Gov
 * Auth 
 * Distribution
+
+We intend to audit the Transaction Encoding/Broadcaste interface shortly but we are waiting on [this issues](https://github.com/cosmos/cosmos-sdk/issues/6213) for a full audit.
 
 ### Audit Results
 #### Validators
