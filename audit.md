@@ -185,5 +185,19 @@ This document is a simple review of the REST API endpoint changes between Cosmos
   ]
 }
 ```
+<br/><br/>
 
+* **Endpoint Name:** getQueriedValidatorSlashes
+* **Endpoint Path:**
+```"/distribution/validators/{validatorAddr}"```
+* **What Changed:**
+  * No change
+  <br/><br/>
 
+* **Endpoint Name:** getQueriedDelegationRewards
+* **Endpoint Path:**
+```"/distribution/delegators/{delegatorAddr}/rewards"```
+* **What Changed:**
+  * No change
+
+<br/><br/>
