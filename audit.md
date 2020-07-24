@@ -53,6 +53,7 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
 ```"/staking/validators"```
 * **What Changed:** 
   * The fields ```"unbonding_height"``` and ```"jailed"``` are no longer supported
+  * The fields in description are now omit if empty. Rather than returning fields with empty strings. We now don't return the field if the validator has chosen not to configure it. For instance at launch, no validator will have a security contact filled out and the field will only appear once they do. 
 * **Sample JSON:**
 ```JSON
 {
