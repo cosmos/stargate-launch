@@ -35,6 +35,18 @@ We would also like to emphasize the intent to deprecate the Amino interfaces in 
 We intend to audit the Transaction Encoding/Broadcaste interface shortly but we are waiting on [this issues](https://github.com/cosmos/cosmos-sdk/issues/6213) for a full audit.
 
 ### Audit Results
+
+#### Bank
+* **Endpoint Name:** QueryBalance
+* **Endpoint Path:**
+```"/bank/balances/{address}"```
+* **What Changed:** 
+  * No Changes observed.
+  * See [coin cross-chain transfer source tracing](https://github.com/cosmos/cosmos-sdk/pull/6662) for details on how on non-native IBC coins will written into the denmom value. This will include a hash of source trace for each coin. The core decision if the hash should replace the denom or be prepended to the denom.
+
+
+
+
 #### Validators
 * **Endpoint Name:** QueryValidators
 * **Endpoint Path:**
