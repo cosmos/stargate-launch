@@ -7,6 +7,8 @@ We are pivoting to an integration testnet that will be presented to Lunie. The p
 ## Key Activities
 * Stargate Proposal 1 has reched 47% with 486.563M ATOMs voting Yes. https://hubble.figment.network/cosmos/chains/cosmoshub-3/governance/proposals/27 Thank you to everyone who helped make this proposal a success.
 
+* Lunie Slack walk through appropriate private testnet structure for Stargate testing.
+
 * Amino Legacy Audit DRAFT published and in community review
 
 * Regen and Cosmos SDK review of ADR completed
@@ -31,6 +33,6 @@ We are pivoting to an integration testnet that will be presented to Lunie. The p
 
 ### Iqlusion team
 * Lunie & Iqlusion agree to a internal 4-Nodes x 3 (A-B-C) stargate testnet
-* Amino endpoints Audit DRAFT completed
+* Amino endpoints Audit DRAFT completed and submitted to Coinbase for review
 * Flow of Funds Diagram for Coinbase started
 * 
