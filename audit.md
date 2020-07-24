@@ -30,7 +30,7 @@ We would also like to emphasize the intent to deprecate the Amino interfaces in 
   * Balances
 * Gov
 * Auth 
-* Distribution
+* Distributions
 
 We intend to audit the Transaction Encoding/Broadcaste interface shortly but we are waiting on [this issues](https://github.com/cosmos/cosmos-sdk/issues/6213) for a full audit.
 
@@ -212,4 +212,21 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
 * **What Changed:**
   * No change
 
+<br/><br/>
+
+#### Distributions
+* **Endpoint Name:** NewAccountRetriever
+* **Endpoint Path:**
+```"/auth/accounts/{address}"```
+* **What Changed:**
+  * * The fields ```""account_number""```, ```"coins"```, ```"public_key"```, and ```"sequence"``` are no longer supported
+
+* **Sample JSON:**
+```JSON
+{
+    "type": "cosmos-sdk/BaseAccount",
+    "value": {
+        "address": "cosmos1psu7g0nmyskkc24m6s0jdasrqp3wj4ft7gg67v"
+    }
+}
 <br/><br/>
