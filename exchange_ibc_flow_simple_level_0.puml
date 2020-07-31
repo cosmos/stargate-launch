@@ -17,7 +17,12 @@ note right: 100 KavaChain tokens destroyed
 Relayer -> CosmosHub: Release 100 ATOMs from Escrow
 CosmosHub -> Alice: Send ATOMs to Alice account on the Cosmos Hub
 note left: Escrow of 100 ATOMs is released
-Alice -> CryptoExchange : Trade 100 tokens in CryptoExchange Wallet
+Alice -> CryptoExchange : Send 100 ATOMs to Exchange
 note right: CryptoExchange wallet sees 100 tokens from KavaChain(?)
 
+note over Relayer #grey: The relayer function is an untrusted function. A relayer cannot alter or interrupt the flow of funds
+
+
 @enduml
+
+
