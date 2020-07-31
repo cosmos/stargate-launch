@@ -8,7 +8,6 @@ Collections CryptoExchange
 actor Bob
 
 
-
 Alice -> CosmosHub : Escrow 100 ATOMs on IBC Channel to KavaChain and generate IBC Packet
 note left: 100 ATOMs in escrow on CosmosHub
 Relayer --> Alice : Relayer detects IBC request
