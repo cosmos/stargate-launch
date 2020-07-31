@@ -21,3 +21,4 @@ Alice -> CosmosHub : Send 100 tokens to CryptoExchange Wallet
 
 Alice -> CryptoExchange : Trade 100 tokens in CryptoExchange Wallet
 note right: CryptoExchange wallet sees 100 tokens from KavaChain(?)
+@enduml
