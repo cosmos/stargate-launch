@@ -1,27 +1,30 @@
 @startuml
-title Crypto Exchange Interchain Blockchain (IBC) Protocol Flow of Funds Example Simple
+title Crypto Exchange Inter-Blockchain (IBC) Protocol Flow of Funds Example Simple
 actor   Alice
 Collections CosmosHub
+entity Relayer #Green
 Collections KavaChain
 Collections CryptoExchange
-entity Relayer #Green
+actor Bob
+
 
 
 Alice -> CosmosHub : Escrow 100 ATOMs on IBC Channel to KavaChain and generate IBC Packet
 note left: 100 ATOMs in escrow on CosmosHub
+Relayer --> Alice : Relayer detects IBC request
 Relayer -> KavaChain : Publish Packet on Kavachain
 KavaChain -> Alice : Mint 100 KavaATOMs on KavaChain to Alice
 note left: 100 KavaATOMs created on KavaChain
-Alice -> KavaChain : Destroy 100 KavaATOMs on IBC Channel to CosmosHub and generate IBC Packet
+KavaChain -> Alice : Send 100 KavaATOMs to Bob on KavaChain
+Bob -> KavaChain : Destroy 100 KavaATOMs on IBC Channel to CosmosHub and generate IBC Packet
 note right: 100 KavaChain tokens destroyed
 Relayer -> CosmosHub: Release 100 ATOMs from Escrow
-CosmosHub -> Alice: Send ATOMs to Alice account on the Cosmos Hub
+CosmosHub -> Bob: Send ATOMs to Bob account on the Cosmos Hub
 note left: Escrow of 100 ATOMs is released
-Alice -> CryptoExchange : Send 100 ATOMs to Exchange
-note right: CryptoExchange wallet sees 100 tokens from KavaChain(?)
+Bob -> CryptoExchange : Send 100 ATOMs to Exchange
+note right: CryptoExchange wallet sees 100 tokens controlled by Bob. CryptoExchange can track history \nof funds from CosmosHub to KavaChain and reference the escrow transaction.
 
-note over Relayer #blue: The relayer function is an untrusted function. A relayer cannot alter or interrupt the flow of funds
-
+note over Relayer #lightblue: NOTE: The relayer function is an untrusted function. \nA relayer cannot alter or interrupt the flow of funds
 
 @enduml
 
