@@ -1,4 +1,4 @@
-# Stargate Week  4 July 27th
+# Stargate Week 4 July 27th
 
 ## Executive Summary
 
