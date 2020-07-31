@@ -1,5 +1,5 @@
 @startuml
-title Crypto Exchange Interchain Blockchain (IBC) Protocol Flow of Funds Example
+title Crypto Exchange Interchain Blockchain (IBC) Protocol Flow of Funds Example Simple
 actor   Alice
 Collections CosmosHub
 Collections KavaChain
@@ -20,7 +20,7 @@ note left: Escrow of 100 ATOMs is released
 Alice -> CryptoExchange : Send 100 ATOMs to Exchange
 note right: CryptoExchange wallet sees 100 tokens from KavaChain(?)
 
-note over Relayer #grey: The relayer function is an untrusted function. A relayer cannot alter or interrupt the flow of funds
+note over Relayer #blue: The relayer function is an untrusted function. A relayer cannot alter or interrupt the flow of funds
 
 
 @enduml

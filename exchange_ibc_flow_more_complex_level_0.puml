@@ -1,5 +1,5 @@
 @startuml
-title Crypto Exchange Interchain Blockchain (IBC) Protocol Flow of Funds Example
+title Crypto Exchange Interchain Blockchain (IBC) Protocol Flow of Funds Example Complex
 actor   Alice
 Collections CosmosHub
 Collections KavaChain
