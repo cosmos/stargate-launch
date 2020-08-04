@@ -1,7 +1,11 @@
 # Stargate Week 5 August 7th
 
 ## Executive Summary
-The release of Tendermint 34.rc1 advances Stargate private testnet preparation. Integration partnre Lunie is excited to help launch their testnet.
+The release of Tendermint 34.rc2 advances Stargate private testnet preparation. Marko is making rapid progress integrating the latest Tendermint with the cosmos SDK. The Block endpoint in the legacy api is one of the big missing pieces in our Amino audit. With this integration happening, the Iqlusion team can tie up this issue as well.
+
+The transaction generation endpoints have all been migrated to use Protobuf internally. We are now able to test for API breakage for wallets and the Ledger app and will be adding this to the audit report.
+
+We are putting our effort into completeing a port of Gaia to the SDK master for a testnet with Lunie.
 
 
 ## Key Activities
@@ -10,19 +14,25 @@ The release of Tendermint 34.rc1 advances Stargate private testnet preparation. 
 * Secure feedback for exchange partners on flow of funds with the IBC and ICS20 active showing creation and destruction of fund before the reach an exchange wallet
 
 
-
-
 ## Workstreams
+
 
 ### IBC team
 
+Integration with Tendermint 0.34 and complete removal of Amino from IBC
 
 ### Tendermint Team
 
+Work on getting height retaining upgrades and further evidence handling improvements into Tendermint 0.34 final in time for the final phases of the Stargate testnet.
+
+Thank you to the Tendermint team for the integration target RC!
 
 
 ### SDK team
 
+Bringing the Comsos upgrade manager into the SDK for upgrades.
+
+Completing the remaining work towards an SDK release candidate.
 
 
 ### Iqlusion team
@@ -33,4 +43,4 @@ The release of Tendermint 34.rc1 advances Stargate private testnet preparation. 
 
 ### Testnet planning
 
-* 
+* Focusing on the Lunie integration testnet
