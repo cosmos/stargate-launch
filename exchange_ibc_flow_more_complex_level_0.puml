@@ -2,9 +2,9 @@
 title Crypto Exchange Interchain Blockchain (IBC) Protocol Flow of Funds Example Complex
 actor   Alice
 Collections CosmosHub
+entity Relayer #Green
 Collections KavaChain
 Collections CryptoExchange
-entity Relayer #Green
 
 Alice -> CosmosHub : Escrow 100 ATOMs on IBC Channel to KavaChain and generate IBC Packet
 note left: 100 ATOMs in escrow on CosmosHub
