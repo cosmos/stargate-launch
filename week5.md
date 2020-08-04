@@ -17,29 +17,30 @@ We are putting our effort into completeing a port of Gaia to the SDK master for 
 ## Workstreams
 
 
-### IBC team
+### IBC team (Interchain GmbH)
 
 Integration with Tendermint 0.34 and complete removal of Amino from IBC
 
-### Tendermint Team
+### Tendermint Team (Interchain GmbH)
 
 Work on getting height retaining upgrades and further evidence handling improvements into Tendermint 0.34 final in time for the final phases of the Stargate testnet.
 
 Thank you to the Tendermint team for the integration target RC!
 
 
-### SDK team
+### SDK team (Regen)
 
 Bringing the Comsos upgrade manager into the SDK for upgrades.
 
 Completing the remaining work towards an SDK release candidate.
+  
+Ran the first SDK Community call
 
 
 ### Iqlusion team
 
 * Update DRAFT flow of funds for exchange partners
 * Cosmos SDK Community calls completed
-* 
 
 ### Testnet planning
 
