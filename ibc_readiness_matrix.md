@@ -26,3 +26,13 @@ Support for additional IBC protocols that may be relevant to users like Atomic T
 **IBC Mastery Level 5**
 
 An exchange runs infrastructure and creates and receives IBC packets either via a chain or a solo machine.
+
+
+### The IBC & Exchange Flow Of Funds:
+
+**Crypto Exchange Inter-Blockchain (IBC) Protocol Flow of Funds Example Simple**
+1. ![](images/simple.png?raw=true)
+
+**Crypto Exchange Inter-Blockchain (IBC) Protocol Flow of Funds Example Complex**
+
+2. ![](images/complex.png?raw=true)
