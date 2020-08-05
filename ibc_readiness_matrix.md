@@ -1,4 +1,4 @@
-# IBC Readiness Matrix
+# IBC Skill Matrix
 Exchanges should use the Stargate IBC Skill matrix below to help guide their level of servicing offered on the Cosmos IBC.
 
 ### The IBC Skill Levels:
