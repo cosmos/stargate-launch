@@ -5,7 +5,7 @@ Exchanges should use the Stargate IBC Mastery matrix below to help guide their l
 
 **IBC Mastery Level 0**
 
-Know enough to filter and handle customer support for transactions other ATOMS. The exchange will not show non-ATOM tokens in user balances. An exchange receives tokens to my balance and the “sender” of the tokens is an IBC transaction that originated on another chain. Internal data models should be able to handle at level 0. ATOMs can be expected to be sent to exchanges in this manner at some point after ICS20 is fully active.
+Know enough to filter and handle customer support for token blaances other than ATOMS. The exchange will not show non-ATOM tokens in user balances. An exchange receives tokens to my balance and the “sender” of the tokens is an IBC transaction that originated on another chain. Internal data models should be able to handle at level 0. ATOMs can be expected to be sent to exchanges in this manner at some point after ICS20 is fully active.
 
 **IBC Mastery Level 1**
 
@@ -13,11 +13,11 @@ Would support a select list of tokens and channels. The expectation is that only
 
 **IBC Mastery Level 2**
 
-Would support for all ICS20 and additional application protocols.
+Would support for all ICS20 and additional application protocols. This involves some degree of automated analysis of the topology of the IBC network.
 
 **IBC Mastery Level 3**
 
-Integrator can interact with creating IBC connections and relaying packers
+Integrator can interact with creating IBC connections and relaying packets
 
 **IBC Mastery Level 4**
 
