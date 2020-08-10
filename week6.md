@@ -41,7 +41,7 @@ Amazing progress on genesis migrationa and prep for the simulated upgrade networ
 
 ### Iqlusion team
 
-* Follow up with partners on IBC flow of funs
+* Follow up with partners on IBC flow of funds UMLs
 * Gaia migration continued
 * Validator keys for genesis files
 
