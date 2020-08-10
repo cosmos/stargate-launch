@@ -19,8 +19,8 @@ The other big miletstone is Amino was finally fully removed from IBC.
 
 * IBC Flow of funds next steps
 
-* Validator Keys for testnet genesis files
-[add content]
+* Collect production Validator Keys for testnet genesis files
+
 
 ## Workstreams
 
