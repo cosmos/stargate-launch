@@ -13,3 +13,39 @@ The next big milestone is an initial Gaia v3.0 candidate was built for our inter
 We have also begun collecting keys from validators from first public integration net.
 
 We are closely watching progress the [migration issue](https://github.com/cosmos/cosmos-sdk/pull/6839) and AiB's progress on the upgrade manager as major milestones towards a public testnet launch.
+
+## Key Activities
+* Continue Gaia Migration
+
+* Collect production Validator Keys for testnet genesis files
+
+* Launch testnet trial with Lunie
+
+
+## Workstreams
+
+
+### IBC team (Interchain GmbH)
+
+
+
+### Tendermint Team (Interchain GmbH)
+
+
+
+
+### SDK team (Regen)
+
+
+
+
+### Iqlusion team
+
+* Gaia migration continued
+* Validator keys for genesis files continued
+* Lunie provided testnet branch
+* Endpoint testing
+
+### Testnet planning
+
+* Lunie documented results for Monday
