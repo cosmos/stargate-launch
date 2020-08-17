@@ -12,16 +12,48 @@ The next big milestone is an initial Gaia v3.0 candidate was built for our inter
 
 We have also begun collecting keys from validators from first public integration net.
 
-We are closely watching progress the [migration issue](https://github.com/cosmos/cosmos-sdk/pull/6839) and AiB's progress on the [upgrade manager](https://github.com/cosmos/cosmos-sdk/pulls?page=2&q=is%3Apr+is%3Aopen) as major milestones towards a public testnet launch.
+We are closely watching progress the [migration issue](https://github.com/cosmos/cosmos-sdk/pull/6839) and AiB's progress on the upgrade manager as major milestones towards a public testnet launch.
 
+## Key Activities
+
+* Continue Gaia Migration
+
+* Collect production Validator Keys for testnet genesis files
+
+* Launch testnet trial with Lunie
 
 ## Workstreams
 
+### IBC team (Interchain GmbH)
+
+* Winding up on IBC 1.0
+
+* Not currently blocking any Stargate events
+
 ### Tendermint Team (Interchain GmbH)
 
-- Working towards finalizing the evidence workflow and final release.
+* Finishing up Evidence handling and support SDK integration work with Tendermint 0.34 *
 
 ### SDK team (Regen)
 
-- Finishing up the migrate command.
-- Making a breaking change to tranasctions serialization to include sequence numbers for better error messages on signature verification failure.
+* [migrate command is the main blocker on testnet launc](https://github.com/cosmos/cosmos-sdk/pull/6839)
+* Ongoing process towards the mileston
+
+### Supervisor Team(All in Bits)
+
+* All in Bits is working on integration of the upgrade manager into the SDK directory and integrating cosmosd into the continuous integration system.
+
+### Relayer(Akash)
+
+* Akash is begining work on updating the relayer from the Game of Zones version to SDK master.
+
+### Iqlusion team
+
+* Gaia migration continued
+* Validator keys for genesis files continued
+* Lunie provided testnet branch
+* Endpoint testing
+
+### Testnet planning
+
+* Lunie documented results for Monday
