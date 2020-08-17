@@ -227,18 +227,3 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
 
 <br/><br/>
 
-#### Distributions
-* **Endpoint Name:** NewAccountRetriever
-* **Endpoint Path:**
-```"/auth/accounts/{address}"```
-* **What Changed:**
-  * * The fields ```""account_number""```, ```"coins"```, ```"public_key"```, and ```"sequence"``` are no longer supported
-
-* **Sample JSON:**
-```JSON
-{
-    "type": "cosmos-sdk/BaseAccount",
-    "value": {
-        "address": "cosmos1psu7g0nmyskkc24m6s0jdasrqp3wj4ft7gg67v"
-    }
-}
