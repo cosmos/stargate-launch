@@ -1,5 +1,5 @@
 {
 "validator_name":"Example validator"
-"validator_address":"cosmos1xxxx",
-"stargate_consensus_public_key:"cosmosvalconspub1zcjduepqjw2drxq6u0uc9vk2xxvjrnjz092r706uhhv0ggy0etrety9ges2qzee057"
+"validator_address":"cosmosvaloper1gxxxx",
+"stargate_consensus_public_key:"cosmosvalconspub1xxxx"
 }
