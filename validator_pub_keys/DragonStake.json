@@ -1,5 +1,5 @@
 {
-    "validator_name":"DragonStake"
+    "validator_name":"DragonStake",
     "validator_address":"cosmosvaloper15r4tc0m6hc7z8drq3dzlrtcs6rq2q9l2nvwher",
-    "stargate_consensus_public_key:"cosmosvalconspub1addwnpepqdhnuhqu9qkl7y8rfzhm89gxjqvf6kk0kzfqm4gxe4svawy0ke4ewrnx9d6"
+    "stargate_consensus_public_key":"cosmosvalconspub1addwnpepqdhnuhqu9qkl7y8rfzhm89gxjqvf6kk0kzfqm4gxe4svawy0ke4ewrnx9d6"
 }

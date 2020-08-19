@@ -1,6 +1,6 @@
 {
-    "validator_name":"Iqlusion"
+    "validator_name":"Iqlusion",
     "validator_address":"cosmosvaloper1grgelyng2v6v3t8z87wu3sxgt9m5s03xfytvz7",
-    "stargate_consensus_public_key:"cosmosvalconspub1zcjduepqdgvppnyr5c9pulsrmzr9e9rp7qpgm9jwp5yu8g3aumekgjugxacq8a9p2c"
+    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqdgvppnyr5c9pulsrmzr9e9rp7qpgm9jwp5yu8g3aumekgjugxacq8a9p2c"
 }
     
