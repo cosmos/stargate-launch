@@ -1,5 +1,5 @@
 {
-    "validator_name":"Certus One"
+    "validator_name":"Certus One",
     "validator_address":"cosmosvaloper1ck3kl0xe48zynr0nuf4tvvx8s7nhkehzpmyg8h",
-    "stargate_consensus_public_key:"cosmosvalconspub1zcjduepqxle856ffpp8jt9j4wgnv20prpvf60uktsrq2fmz73xkujhvwtylqv8fnfu"
+    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqxle856ffpp8jt9j4wgnv20prpvf60uktsrq2fmz73xkujhvwtylqv8fnfu"
 }
