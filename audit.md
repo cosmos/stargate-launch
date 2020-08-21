@@ -232,18 +232,112 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
 
 Transaction messages look significantly different post Stargate.
 ```
-{"type":"cosmos-sdk/StdTx","value":{"msg":[{"type":"cosmos-sdk/MsgSend","value":{"from_address":"cosmos1grgelyng2v6v3t8z87wu3sxgt9m5s03xvslewd","to_address":"cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h","amount":[{"denom":"stake","amount":"10000"}]}}],"fee":{"amount":[{"denom":"stake","amount":"100"}],"gas":"200000"},"signatures":null,"memo":"hello"}}
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgSend",
+        "value": {
+          "from_address": "cosmos1grgelyng2v6v3t8z87wu3sxgt9m5s03xvslewd",
+          "to_address": "cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h",
+          "amount": [
+            {
+              "denom": "stake",
+              "amount": "10000"
+            }
+          ]
+        }
+      }
+    ],
+    "fee": {
+      "amount": [
+        {
+          "denom": "stake",
+          "amount": "100"
+        }
+      ],
+      "gas": "200000"
+    },
+    "signatures": null,
+    "memo": "hello"
+  }
+}
 ```
 
 now this looks like
 
 ```
-{"body":{"messages":[{"@type":"/cosmos.bank.v1beta1.MsgSend","from_address":"cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h","to_address":"cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h","amount":[{"denom":"stake","amount":"10000"}]}],"memo":"hello"},"auth_info":{"fee":{"amount":[{"denom":"stake","amount":"100"}],"gas_limit":"200000"}}}
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.bank.v1beta1.MsgSend",
+        "from_address": "cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h",
+        "to_address": "cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h",
+        "amount": [
+          {
+            "denom": "stake",
+            "amount": "10000"
+          }
+        ]
+      }
+    ],
+    "memo": "hello"
+  },
+  "auth_info": {
+    "fee": {
+      "amount": [
+        {
+          "denom": "stake",
+          "amount": "100"
+        }
+      ],
+      "gas_limit": "200000"
+    }
+  }
+}
 ```
 
 The signed form looks like this:
 ```
-{"body":{"messages":[{"@type":"/cosmos.bank.v1beta1.MsgSend","from_address":"cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h","to_address":"cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h","amount":[{"denom":"stake","amount":"10000"}]}]},"auth_info":{"signer_infos":[{"public_key":{"secp256k1":"A0OjtIUCFJM3AobJ9HJTWKP9RZV2+WPcwVjLgsAidrZ/"},"mode_info":{"single":{"mode":"SIGN_MODE_LEGACY_AMINO_JSON"}}}],"fee":{"gas_limit":"200000"}},"signatures":["t4ZHNJcZCwn6jebhzp84ipTwNdcRLil0j9Za3tRAekprHbVodRB01Xs6qs0THacUdYe0Kr/rFKEVILzvON/6eg=="]}
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.bank.v1beta1.MsgSend",
+        "from_address": "cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h",
+        "to_address": "cosmos1lcsjy2d5s33h0sddd8lpuqvwyz5ruz7jsfj43h",
+        "amount": [
+          {
+            "denom": "stake",
+            "amount": "10000"
+          }
+        ]
+      }
+    ]
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "secp256k1": "A0OjtIUCFJM3AobJ9HJTWKP9RZV2+WPcwVjLgsAidrZ/"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "gas_limit": "200000"
+    }
+  },
+  "signatures": [
+    "t4ZHNJcZCwn6jebhzp84ipTwNdcRLil0j9Za3tRAekprHbVodRB01Xs6qs0THacUdYe0Kr/rFKEVILzvON/6eg=="
+  ]
+}
 ```
 
 Note the new mode_info section of the signatures.
