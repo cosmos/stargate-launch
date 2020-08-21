@@ -9,7 +9,7 @@ The Cosmos Stargate Upgrade will provide 3 interfaces for sending and retrieving
 2. GRPC Clients
 3. GRPC Gateway JSON REST.
 
-The Legacy Amino interface provides an interface most similar to cosmoshub-2 and prior versions of the Cosmos SDK. This interface is available for both querying and sending transactions. It is implemented by executing Amino JSON serialization refliection over the new set of protobuf compatible structs.
+The Legacy Amino interface provides an interface most similar to cosmoshub-3 and prior versions of the Cosmos SDK. This interface is available for both querying and sending transactions. It is implemented by executing Amino JSON serialization refliection over the new set of protobuf compatible structs.
 
 The core finding of this audit is that while changes to the underlying structs result in an interface that is close to the prior version.
 
