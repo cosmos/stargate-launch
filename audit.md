@@ -340,10 +340,6 @@ The signed form looks like this:
 }
 ```
 
-Note the new mode_info section of the signatures.
+In most ways, the new style of transaction JSON resembles cosmoshub-3 transction. The biggest change is the introduction of the `auth_info` field. One of the goals of the Cosmos SDK team is to introduce new signing modes that improve developer experience. In the newer modes, the signature signs over the auth info bits. But in legacy amino mode, the `auth_info` is not signed over. Instead you construct the exact same kind of `StdSignDoc` with `msg`, `chain-id`, `account_numeber`, `fee` and `sequence` fields as before. When generating the transction, the `auth_info` fields should be generated using this standard information with the public key of the signers and `mode_info` as above.
 
-The additional sign modes can provide new functionality like multimessages with a signle fee payer but sending from multiple accounts and SIGN_MODE_DIRECT which directly signs the protobuf encoded messages rather than a JSON representation.
-
-We expect that users migrating from previous cosmos versions will be adopting SIGN_MODE_LEGACY_AMINO and single signer mode.
-
-//TODO investigate multisig
+While the new `SIGN_MODE_DIRECT` is still somewhat unstable, `SIGN_MODE_LEGACY_AMINO_JSON` should be considered stable at this point.
