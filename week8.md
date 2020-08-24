@@ -1,4 +1,4 @@
-# Stargate Week 7 August 36th
+# Stargate Week 8 August 26th
 
 ## Executive Summary
 
@@ -20,6 +20,12 @@ Deploy [Gaia 3.0 alpha 1](https://github.com/cosmos/gaia/pull/456) version
 Launch public testnet.
 
 Continue integration case study with Lunie.
+
+Welcome integration participation with Figment
+
+Prepare documentation for the next phase of testnet participation
+
+Check in with exchange partners on compliance impact of Stargate Readiness Level 0
 
 ## Workstreams
 
@@ -49,3 +55,4 @@ Finishing up evidence handling and integrating the Cosmos SDK with Tendermint 0.
 * Launch testnet
 * Lunie integration feedback with Lunie
 * Endpoint testing
+* Ongoing validator key collection
