@@ -18,5 +18,6 @@ Help us to get the word out–this is a major leap for the Cosmos Network and we
 - [Week 4 Status July 27th, 2020](week4.md)
 - [Week 5 Status August 7th, 2020](week5.md)
 - [Week 6 Status August 12th, 2020](week6.md)
-- [Week 6 Status August 19th, 2020](week7.md)
+- [Week 7 Status August 19th, 2020](week7.md)
+- [Week 8 Status August 26th, 2020](week7.md)
 - [Project Board](https://github.com/orgs/cosmosdevs/projects/1)
