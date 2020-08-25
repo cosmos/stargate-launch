@@ -40,7 +40,11 @@ Finishing up evidence handling and integrating the Cosmos SDK with Tendermint 0.
 ### SDK team (Regen)
 
 * [migrate command is the main blocker on testnet launc](https://github.com/cosmos/cosmos-sdk/pull/6839)
-* Ongoing process towards the milestone
+* Main 3 oustanding pieces are as follows:
+  * enabling gRPC gateway
+  * migrating PubKey to protobuf based extensible address format
+  * Tendermint 0.34 updates (including support for non-zero initial height)
+* Tracking issue for Cosmos SDK's Stargate release candidate can be found [here](https://github.com/cosmos/cosmos-sdk/issues/7152)
 
 ### Supervisor Team(All in Bits)
 
