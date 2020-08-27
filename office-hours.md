@@ -1,4 +1,4 @@
-# Cosmos Stargate Office Hours
+# Cosmos Stargate Testnet Office Hours
 
 As part of Cosmos Stargate Testnet, we'd like to offer the following Office Hours for Cosmos Stargate testnet users.
 
