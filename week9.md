@@ -35,5 +35,10 @@ We are looking forward to stability and better documentation of the legacy amino
 
 
 ### Iqlusion team
+* Stargate-1a Gaia release tagged after various updates
+* Stargate release support with Figment, Lunie, and Trustwallet
+* Ongoing collection of validator keys continues
+* Stargate Testnet Office Hours launched
+
 
 
