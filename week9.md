@@ -20,8 +20,11 @@ We are looking forward to stability and better documentation of the legacy amino
 
 
 
-### Tendermint Team (Interchain GmbH)
-
+### Tendermint Core team (Interchain GmbH)
+* Light client evidence handling - simplifying, verifying, and reimplementing
+* Integrating Cosmos SDK with the latest Tendermint 0.34 release candidate
+    * This includes integrating the state sync feature and ironing out any bugs 
+* Ensuring that Tendermint docs are up to date for 0.34
 
 
 ### SDK team (Regen)
