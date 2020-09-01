@@ -17,7 +17,9 @@ We are looking forward to stability and better documentation of the legacy amino
 ## Workstreams
 
 ### IBC team (Interchain GmbH)
-
+* Final parts of protobuf migration, testcases & general cleanup
+* Implementation updates to allow safe future IBC protocol upgrades
+* Minor protocol updates for asynchronous acknowledgement support
 
 
 ### Tendermint Core team (Interchain GmbH)
@@ -42,6 +44,5 @@ We are looking forward to stability and better documentation of the legacy amino
 * Stargate release support with Figment, Lunie, and Trustwallet
 * Ongoing collection of validator keys continues
 * Stargate Testnet Office Hours launched
-
 
 
