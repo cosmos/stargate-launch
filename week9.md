@@ -10,5 +10,30 @@ We've encountered, documented and worked with the SDK and IBC team to fix a numb
 
 We are looking forward to stability and better documentation of the legacy amino interface before we start on boarding larger developer teams.
 
+## Key Activities
+
+
+
+## Workstreams
+
+### IBC team (Interchain GmbH)
+
+
+
+### Tendermint Team (Interchain GmbH)
+
+
+
+### SDK team (Regen)
+
+
+
+### Supervisor Team(All in Bits)
+
+
+### Relayer(Akash)
+
+
+### Iqlusion team
 
 
