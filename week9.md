@@ -37,6 +37,10 @@ We are looking forward to stability and better documentation of the legacy amino
 
 
 ### Relayer(Akash)
+* Begun work on migrating the relayer to v0.40 of the SDK
+* Implementation work in [ovrclk/relayer](https://github.com/ovrclk/relayer/pull/278)
+* Code is now compiling, tests run but fail.
+* Worked with SDK team to fix [gas issue](https://github.com/cosmos/cosmos-sdk/pull/7207) and [ibc proto registration issues](https://github.com/cosmos/cosmos-sdk/pull/7210)
 
 
 ### Iqlusion team
