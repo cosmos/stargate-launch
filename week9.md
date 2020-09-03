@@ -30,7 +30,11 @@ We are looking forward to stability and better documentation of the legacy amino
 
 
 ### SDK team (Regen)
-
+* PubKey migration to protobuf still underway, with continued complications
+* gRPC gateway & last querier handling blocked on [#7195](https://github.com/cosmos/cosmos-sdk/issues/7195)
+* non-zero initial height complete [#7089](https://github.com/cosmos/cosmos-sdk/pull/7089)
+* Synced with Tendermint team on handling of Light client evidence
+* Follow progress towards RC on [Stargate RC tracking issue](https://github.com/cosmos/cosmos-sdk/issues/7152)
 
 
 ### Supervisor Team(All in Bits)
