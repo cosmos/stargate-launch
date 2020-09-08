@@ -27,7 +27,9 @@
 
 ### Relayer(Akash)
 
-
+- Work on the relayer continues in http://github.com/ovrclk/relayer/pull/278
+- Client creation and update working. Debugging handshake issues
+- Fixed a number of small upstream IBC encoding issues
 
 ### Iqlusion team
 
