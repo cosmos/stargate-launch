@@ -14,7 +14,9 @@ Help us to get the word out–this is a major leap for the Cosmos Network and we
 
 ## Testnet
 
-We've launched the first public alpha testnet for the Stargate Upgrade on Tuesday August 25th.
+We've launched the second public alpha testnet `stargate-2` for the Stargate Upgrade on Tuesday September 8th.
+
+This release fixes issues with Legacy Amino that were discovered in `stargate-1`. We believe that this version is now good to test for exchanges and wallets.
 
 This testnet is intended for:
 
@@ -32,7 +34,7 @@ Our validator node for a persistent peer is available at
 00d8e9c0df367296436854b580d9b069d3f1a5fd@35.223.139.159:26656
 ```
 
-As of 08/31/2020, the tagged `gaia` version is [stargate-1a](https://github.com/cosmos/gaia/releases/tag/stargate-1a)
+As of 08/31/2020, the tagged `gaia` version is [stargate-2](https://github.com/cosmos/gaia/releases/tag/stargate-2)
 
 Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
 
