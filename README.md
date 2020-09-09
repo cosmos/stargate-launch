@@ -31,7 +31,7 @@ We anticpate restarting this testnet with future integration targets. Once we ha
 Our validator node for a persistent peer is available at
 
 ``` bash
-00d8e9c0df367296436854b580d9b069d3f1a5fd@35.223.139.159:26656
+00d8e9c0df367296436854b580d9b069d3f1a5fd@34.123.30.100:26656
 ```
 
 As of 08/31/2020, the tagged `gaia` version is [stargate-2](https://github.com/cosmos/gaia/releases/tag/stargate-2)
