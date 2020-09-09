@@ -40,7 +40,7 @@ Remember this version now has a single binary instead of `gaiacli/gaiad` and muc
 
 ``` bash
 git checkout https://github.com/cosmos/gaia
-git checkout stargate-1
+git checkout stargate-2
 make build
 ```
 
