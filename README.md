@@ -47,17 +47,22 @@ The genesis file is available [here](genesis.json)
 ## Statesync Configuration Options
 State sync rapidly bootstraps a new node by discovering, fetching, and restoring a state machine snapshot from peers instead of fetching and replaying historical blocks. Requires some peers in the network to take and serve state machine snapshots. State sync is not attempted if the node has any local state (LastBlockHeight > 0). The node will have a truncated block history, starting from the height of the snapshot.
 
-```enable = {{ .StateSync.Enable }}
+``` bash
+enable = {{ .StateSync.Enable }}
 ```
 
 Additionally, some nodes in the network must take state sync snapshots, which are configured in app.toml: 
 
 Snapshot-interval specifies the block interval at which local state sync snapshots are taken (0 to disable). Must be a multiple of pruning-keep-every.
-```snapshot-interval = {{ .StateSync.SnapshotInterval }}
+
+``` bash
+snapshot-interval = {{ .StateSync.SnapshotInterval }}
 ```
 
 Snapshot-keep-recent specifies the number of recent snapshots to keep and serve (0 to keep all).
-```snapshot-keep-recent = {{ .StateSync.SnapshotKeepRecent }}
+
+``` bash
+snapshot-keep-recent = {{ .StateSync.SnapshotKeepRecent }}
 ```
 
 These are disabled by default, out of caution - this is new code, and we wouldn't want it to cause a chain-wide halt or data corruption. Eventually we can consider enabling them by default.
