@@ -16,7 +16,7 @@
 
 ### Tendermint Core team (Interchain GmbH)
 
-
+- Light client evidence handling: Last week, we completed [ADR 59](https://github.com/tendermint/tendermint/blob/master/docs/architecture/adr-059-evidence-composition-and-lifecycle.md) which covers an updated lifecycle for all evidence, including light client evidence. Implementation is now underway. 
 
 ### SDK team (Regen)
 
