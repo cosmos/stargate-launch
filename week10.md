@@ -22,7 +22,7 @@
 
 
 
-### Supervisor Team(All in Bits)
+### Supervisor Team (All in Bits)
 
 - Work continues in preparation of the `cosmovisor` demo that should take place on the 18th of September.
 - `cosmovisor` binary can now be installed with `get github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor`.
@@ -35,4 +35,3 @@
 - Fixed a number of small upstream IBC encoding issues
 
 ### Iqlusion team
-
