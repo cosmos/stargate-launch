@@ -1,5 +1,6 @@
 
 # Stargate upgrade
+
 [Join the Cosmos Stargate announcements channel!](Cosmos Stargate announcements channel!)
 
 If you’re running a block explorer, wallet, exchange, validator, or any other service (eg. custody provider) that depends upon the Cosmos Hub or Cosmos ecosystem, you’ll want to pay attention, because this upgrade will involve substantial changes.
@@ -26,8 +27,6 @@ This testnet is intended for:
 
 We anticpate restarting this testnet with future integration targets. Once we have a migration script, we will launch a testnet with a simulated upgrade from cosmoshub-3.
 
-
-
 Our validator node for a persistent peer is available at
 
 ``` bash
@@ -47,15 +46,18 @@ make build
 The genesis file is available [here](genesis.json)
 
 ## Statesync Configuration Options
+
 State sync rapidly bootstraps a new node by discovering, fetching, and restoring a state machine snapshot from peers instead of fetching and replaying historical blocks. Requires some peers in the network to take and serve state machine snapshots. State sync is not attempted if the node has any local state (LastBlockHeight > 0). The node will have a truncated block history, starting from the height of the snapshot.
 
 ``` bash
 enable = {{ .StateSync.Enable }}
 ```
 
-Additionally, some nodes in the network must take state sync snapshots, which are configured in app.toml: 
+Additionally, some nodes in the network must take state sync snapshots, which are configured in app.toml:
 
 Snapshot-interval specifies the block interval at which local state sync snapshots are taken (0 to disable). Must be a multiple of pruning-keep-every.
+
+> NOTE: Please set this value to a non-zero value. This is required in order for other nodes to be able to utilize state-sync.
 
 ``` bash
 snapshot-interval = {{ .StateSync.SnapshotInterval }}
@@ -68,8 +70,6 @@ snapshot-keep-recent = {{ .StateSync.SnapshotKeepRecent }}
 ```
 
 These are disabled by default, out of caution - this is new code, and we wouldn't want it to cause a chain-wide halt or data corruption. Eventually we can consider enabling them by default.
-
-
 
 - [Week 1 Status July 2nd, 2020](week1.md)
 - [Week 2 Status July 11th, 2020](week2.md)
