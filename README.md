@@ -49,9 +49,9 @@ The genesis file is available [here](genesis.json)
 
 State sync rapidly bootstraps a new node by discovering, fetching, and restoring a state machine snapshot from peers instead of fetching and replaying historical blocks. Requires some peers in the network to take and serve state machine snapshots. State sync is not attempted if the node has any local state (LastBlockHeight > 0). The node will have a truncated block history, starting from the height of the snapshot.
 
-``` bash
-enable = {{ .StateSync.Enable }}
-```
+In the Tendermint config file there is a state-sync section. Some of these fields must be filled in order to use state-sync.
+
+To find out how to fill in this information please visit: <https://docs.tendermint.com/master/tendermint-core/state-sync.html>
 
 Additionally, some nodes in the network must take state sync snapshots, which are configured in app.toml:
 
