@@ -1,4 +1,5 @@
 # AminoREST and You
+
 ## How-To deal with Cosmos legacy interface in the Stargate
 
 ### Summary
@@ -9,52 +10,52 @@ The Cosmos Stargate Upgrade will provide 3 interfaces for sending and retrieving
 2. GRPC Clients
 3. GRPC Gateway JSON REST.
 
-The Legacy Amino interface provides an interface most similar to cosmoshub-3 and prior versions of the Cosmos SDK. This interface is available for both querying and sending transactions. It is implemented by executing Amino JSON serialization refliection over the new set of protobuf compatible structs.
+The Legacy Amino interface provides an interface most similar to cosmoshub-3 and prior versions of the Cosmos SDK. This interface is available for both querying and sending transactions. It is implemented by executing Amino JSON serialization reflection over the new set of protobuf compatible structs.
 
 The core finding of this audit is that while changes to the underlying structs result in an interface that is close to the prior version.
 
-We would also like to emphasize the intent to deprecate the Amino interfaces in the the near future(~1 year). New features are unlikely to have Amino REST interfaces for them. We strongly reccomend working on a migration.
-
+We would also like to emphasize the intent to deprecate the Amino interfaces in the the near future(~1 year). New features are unlikely to have Amino REST interfaces for them. We strongly recommend working on a migration.
 
 ### The Cosmos SDK Versions audited
+
 [Cosmos SDK master](https://github.com/cosmos/cosmos-sdk)
 
 [Cosmos SDK tag v0.37.13](https://github.com/cosmos/cosmos-sdk/tree/v0.37.13)
 
+### Here are the High Priority Endpoints for Queries
 
-### Here are the High Priority Endpoints for Queries:
 * Staking
   * Validators
   * Delegators
 * Bank
   * Balances
 * Gov
-* Auth 
+* Auth
 * Distributions
 
-We intend to audit the Transaction Encoding/Broadcaste interface shortly but we are waiting on [this issues](https://github.com/cosmos/cosmos-sdk/issues/6213) for a full audit.
+We intend to audit the Transaction Encoding/Broadcast interface shortly but we are waiting on [this issues](https://github.com/cosmos/cosmos-sdk/issues/6213) for a full audit.
 
 ### Audit Results
 
 #### Bank
+
 * **Endpoint Name:** QueryBalance
 * **Endpoint Path:**
 ```"/bank/balances/{address}"```
-* **What Changed:** 
+* **What Changed:**
   * No Changes observed.
   * See [coin cross-chain transfer source tracing](https://github.com/cosmos/cosmos-sdk/pull/6662) for details on how on non-native IBC coins will written into the denom value. This will include a hash of source trace for each coin. The core decision if the hash should replace the denom or be prepended to the denom.
 
-
-
-
 #### Validators
+
 * **Endpoint Name:** QueryValidators
 * **Endpoint Path:**
 ```"/staking/validators"```
-* **What Changed:** 
+* **What Changed:**
   * The fields ```"unbonding_height"``` and ```"jailed"``` are no longer supported
-  * The fields in description are now omit if empty. Rather than returning fields with empty strings. We now don't return the field if the validator has chosen not to configure it. For instance at launch, no validator will have a security contact filled out and the field will only appear once they do. 
+  * The fields in description are now omit if empty. Rather than returning fields with empty strings. We now don't return the field if the validator has chosen not to configure it. For instance at launch, no validator will have a security contact filled out and the field will only appear once they do.
 * **Sample JSON:**
+
 ```JSON
 {
       "commission": {
@@ -81,8 +82,10 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
       "unbonding_time": "1970-01-01T00:00:00Z"
 
   }
-```   
+```
+
 #### Delegators
+
 * **Endpoint Name:** QueryDelegatorDelegations
 * **Endpoint Path:** ```"/staking/delegators/delegations"```
 * **What Changed:**
@@ -92,9 +95,8 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
 
   * The old field ```“validator_address”``` is no longer used. A new field ```“validator_dst_address”``` and```“validator_src_address”``` replace this in the new ```“redelegation”``` field.
 
+****Sample JSON:**
 
-
-** **Sample JSON:**
 ```JSON
       {
           "balance": {
@@ -108,6 +110,7 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
           }
       }
 ```
+
 <br/><br/>
 
 * **Endpoint Name:** QueryRedelegations
@@ -119,13 +122,14 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
   * ```"shares_dst"```
 * The old field ```“creation_height"``` is no longer supported.
 * The following are new fields:
-    *  ```“redelegation”``` which holds the sub-fields.
-        * ```delegator_address``` (new)
-        * ```entries``` (new)
-        * ```valdiator_dst_address```
-        * ```validator_src_address```
+  * ```“redelegation”``` which holds the sub-fields.
+    * ```delegator_address``` (new)
+    * ```entries``` (new)
+    * ```valdiator_dst_address```
+    * ```validator_src_address```
 
 * **Sample JSON:**
+
 ```JSON
 {
     "entries": [
@@ -154,6 +158,7 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
     }
 }
 ```
+
 <br/><br/>
 
 * **Endpoint Name:** QueryUnbondingDelegation
@@ -165,14 +170,15 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
 * **Sample JSON:**<br/><br/>
 
 #### Distributions
+
 * **Endpoint Name:** getQueriedValidatorOutstandingRewards
 * **Endpoint Path:**
 ```"/distribution/validators/{validatorAddr}/outstanding_rewards"```
 * **What Changed:**
   * The new field ```“rewards"``` is the new root level field for the output
 
-
 * **Sample JSON:**
+
 ```JSON
 {
   "rewards": [
@@ -187,6 +193,7 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
   ]
 }
 ```
+
 <br/><br/>
 
 * **Endpoint Name:** getQueriedValidatorCommission
@@ -195,8 +202,8 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
 * **What Changed:**
   * The new field ```“commission"``` is the new root level field for the output
 
-
 * **Sample JSON:**
+
 ```JSON
   "commission": [
     {
@@ -210,6 +217,7 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
   ]
 }
 ```
+
 <br/><br/>
 
 * **Endpoint Name:** getQueriedValidatorSlashes
@@ -225,16 +233,13 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
 * **What Changed:**
   * No change
 
-
-
-
 ## Transaction constructions
 
-Stargate offers two modes of constructing transactions. 
+Stargate offers two modes of constructing transactions.
 
 1. Legacy Amino transactions that can be broadcast using http `POST` to `:1317/txs` endpoint as in previous Cosmos releases.
 2. Protobuf transactions that operate using the  `26657/broadcast` endpoint on Tendermint RPC and use the new SIGN_MODE_DIRECT signing system.
 
-Under the hood JSON Legacy Amino transactions are re-encoded as protobuf txs and endoded back to json during signature verification. If you have an existing integration with the Cosmos Hub or other Cosmos-SDK chains, you should expect that your signed and broadcast infrastructure will work without changes.
+Under the hood JSON Legacy Amino transactions are re-encoded as protobuf txs and encoded back to json during signature verification. If you have an existing integration with the Cosmos Hub or other Cosmos-SDK chains, you should expect that your signed and broadcast infrastructure will work without changes.
 
 If you are building a new integration, you should consider if SIGN_MODE_DIRECT and direct protobuf encoding is a better fit for your use case.

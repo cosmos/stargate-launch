@@ -6,9 +6,9 @@ The core goal of the Stargate team is to ensure that ecosystem integration effor
 
 We are pivoting to an integration testnet that will be presented to Lunie and then opened up to other partners as verification/validation of the Legacy Amino interface progresses.
 
-The integration testnet is currently blocked on completing [Proto Tx migration](https://github.com/cosmos/cosmos-sdk/issues/6213). Completition of this issue will allow integration partners to test their integrations with the Legacy AMINO interface for TX creation and signing. We expect this to be a very important API surface area for exchanges.
+The integration testnet is currently blocked on completing [Proto Tx migration](https://github.com/cosmos/cosmos-sdk/issues/6213). Completion of this issue will allow integration partners to test their integrations with the Legacy AMINO interface for TX creation and signing. We expect this to be a very important API surface area for exchanges.
 
-We would strongly perfer to be operating the integration testnet off of Tendermint 0.34-rc* or Tendermint `master` and we looking toward the merging of this [Marko's PR](https://github.com/cosmos/cosmos-sdk/pull/6471) as well.  
+We would strongly prefer to be operating the integration testnet off of Tendermint 0.34-rc* or Tendermint `master` and we looking toward the merging of this [Marko's PR](https://github.com/cosmos/cosmos-sdk/pull/6471) as well.  
 
 ## Key Activities
 
@@ -20,7 +20,7 @@ We would strongly perfer to be operating the integration testnet off of Tendermi
 
 * A number of exchanges have expressed concern about how the blockheight reset on Tendermint upgrade interacts with their accounting systems. We explored with the Tendermint team the possibility of enabling Tendermint to start at an arbitrary blockheight.
 
-* A discussion of Rosetta support for Coinbase for all Cosmos SDK applications is being discssed [here](https://github.com/cosmos/cosmos-sdk/issues/6831).
+* A discussion of Rosetta support for Coinbase for all Cosmos SDK applications is being discussed [here](https://github.com/cosmos/cosmos-sdk/issues/6831).
 
 ## Workstreams
 
@@ -28,11 +28,11 @@ We would strongly perfer to be operating the integration testnet off of Tendermi
 
 * Coin tracking ADR appears to be final. Waiting on integration between the Cosmos SDK and Tendermint `master` for final AMINO removal from IBC internals.
 
-* The Iqlusion team has been providing assistence to Akash around planning support for the Golang relayer in Stargate.
+* The Iqlusion team has been providing assistance to Akash around planning support for the Golang relayer in Stargate.
 
 ### Tendermint Team
 
-* There is a lot of dicussion on the final [event hashing](https://github.com/tendermint/tendermint/pull/5134) API. This is currently blocking an 0.34 release because master implements hashing all events into the the block header.
+* There is a lot of discussion on the final [event hashing](https://github.com/tendermint/tendermint/pull/5134) API. This is currently blocking an 0.34 release because master implements hashing all events into the the block header.
 
 ### SDK team
 
