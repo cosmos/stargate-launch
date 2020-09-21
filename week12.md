@@ -22,7 +22,9 @@
 
 
 ### Relayer(Akash)
-
+- Continued relayer debugging. Waiting on https://github.com/tendermint/tendermint/issues/5367 for streaming relayer support
+- Completed denom disambiuation for human readable denoms
+- Working on ADR for typed events in the SDK
 
 ### Iqlusion team
 
