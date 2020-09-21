@@ -15,9 +15,18 @@ Help us to get the word out–this is a major leap for the Cosmos Network and we
 
 ## Testnet
 
-We've launched the second public alpha testnet `stargate-2` for the Stargate Upgrade on Tuesday September 8th.
+We've launched the third public alpha testnet `stargate-3` for the Stargate Upgrade on Monday September 21th.
 
-This release fixes issues with Legacy Amino that were discovered in `stargate-1`. We believe that this version is now good to test for exchanges and wallets.
+Stargate-3 is a big testnet milestone for the Stargate initiative. 
+
+This release fixes issues with Legacy Amino that were discovered in `stargate-1/2`. We believe that this version is now good to test for exchanges and wallets.
+
+The following features are live on the testnet.
+
+* Legacy Amino
+* IBC
+* State-Sync 
+
 
 This testnet is intended for:
 
@@ -33,23 +42,29 @@ Our validator node for a persistent peer is available at
 00d8e9c0df367296436854b580d9b069d3f1a5fd@34.123.30.100:26656
 ```
 
-As of 08/31/2020, the tagged `gaia` version is [stargate-2](https://github.com/cosmos/gaia/releases/tag/stargate-2)
+For users who want to test state sync, our validator node has tendermint rpc open on `34.123.10.100:26657`and we are snapshotting every 1000 blocks.
+
+As of 08/31/2020, the tagged `gaia` version is [stargate-3](https://github.com/cosmos/gaia/releases/tag/stargate-3)
 
 Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
 
-``` bash
+```bash
 git clone https://github.com/cosmos/gaia
-git checkout stargate-2
+git checkout stargate-3
 make build
 ```
 
-The executable can found on:
-/gaia/build/
 
 
 The genesis file is available [here](genesis.json)
 The sha256sum of the genesis is
 `578e511fa57aae4289171c1a7e8d8b166197595fe70749ee908040db2553f226`
+
+
+```bash
+❯ sha256sum genesis.json
+5b79895bc2377a138605ad0940a9e4ff96c005583a01984ee94c6490fa743c05  genesis.json
+```
 
 
 ## Statesync Configuration Options
