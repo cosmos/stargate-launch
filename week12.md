@@ -18,7 +18,7 @@
 
 ### SDK team (Regen)
 
-### Supervisor Team(All in Bits)
+### Upgrade Supervisor Team(All in Bits)
 
 
 ### Relayer(Akash)

@@ -81,4 +81,6 @@ These are disabled by default, out of caution - this is new code, and we wouldn'
 - [Week 8 Status August 26th, 2020](week8.md)
 - [Week 9 Status September 6th, 2020](week9.md)
 - [Week 10 & 11 Status September 16th, 2020](week10_11.md)
+- [Week 12 Status September 23, 2020](week12.md)
+
 - [Project Board](https://github.com/orgs/cosmosdevs/projects/1)
