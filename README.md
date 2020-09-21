@@ -44,7 +44,7 @@ Our validator node for a persistent peer is available at
 
 For users who want to test state sync, our validator node has tendermint rpc open on `34.123.10.100:26657`and we are snapshotting every 1000 blocks.
 
-As of 08/31/2020, the tagged `gaia` version is [stargate-3](https://github.com/cosmos/gaia/releases/tag/stargate-3)
+As of 09/21/2020, the tagged `gaia` version is [stargate-3](https://github.com/cosmos/gaia/releases/tag/stargate-3)
 
 Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
 
@@ -58,9 +58,6 @@ make build
 
 The genesis file is available [here](genesis.json)
 The sha256sum of the genesis is
-`578e511fa57aae4289171c1a7e8d8b166197595fe70749ee908040db2553f226`
-
-
 ```bash
 ❯ sha256sum genesis.json
 5b79895bc2377a138605ad0940a9e4ff96c005583a01984ee94c6490fa743c05  genesis.json
