@@ -38,12 +38,19 @@ As of 08/31/2020, the tagged `gaia` version is [stargate-2](https://github.com/c
 Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
 
 ``` bash
-git checkout https://github.com/cosmos/gaia
+git clone https://github.com/cosmos/gaia
 git checkout stargate-2
 make build
 ```
 
+The executable can found on:
+/gaia/build/
+
+
 The genesis file is available [here](genesis.json)
+The sha256sum of the genesis is
+`578e511fa57aae4289171c1a7e8d8b166197595fe70749ee908040db2553f226`
+
 
 ## Statesync Configuration Options
 
