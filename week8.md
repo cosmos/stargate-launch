@@ -2,7 +2,6 @@
 
 ## Executive Summary
 
-
 We believe it's time to launch the Stargate public testnet this week.
 
 We've accomplished several key milestones. We have an initial [Gaia build](https://github.com/cosmos/gaia/pull/456) with Stargate functionality. The legacy endpoints and Tendermint changes are stable.
@@ -40,7 +39,7 @@ Finishing up evidence handling and integrating the Cosmos SDK with Tendermint 0.
 ### SDK team (Regen)
 
 * [migrate command is the main blocker on testnet launc](https://github.com/cosmos/cosmos-sdk/pull/6839)
-* Main 3 oustanding pieces are as follows:
+* Main 3 outsanding pieces are as follows:
   * enabling gRPC gateway
   * migrating PubKey to protobuf based extensible address format
   * Tendermint 0.34 updates (including support for non-zero initial height)

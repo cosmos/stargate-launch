@@ -34,7 +34,7 @@ This testnet is intended for:
 * Giving node operators and validators an opportunity to test their integrations against a work in progress version
 * Playing with new Stargate features including IBC but real testing of IBC will wait on Akash updating the Relayer and possibly a future testnet.
 
-We anticpate restarting this testnet with future integration targets. Once we have a migration script, we will launch a testnet with a simulated upgrade from cosmoshub-3.
+We anticipate restarting this testnet with future integration targets. Once we have a migration script, we will launch a testnet with a simulated upgrade from cosmoshub-3.
 
 Our validator node for a persistent peer is available at
 
@@ -57,6 +57,9 @@ make build
 
 
 The genesis file is available [here](genesis.json)
+The sha256sum of the genesis is
+`578e511fa57aae4289171c1a7e8d8b166197595fe70749ee908040db2553f226`
+
 
 ```bash
 ❯ sha256sum genesis.json
@@ -68,11 +71,11 @@ The genesis file is available [here](genesis.json)
 
 State sync rapidly bootstraps a new node by discovering, fetching, and restoring a state machine snapshot from peers instead of fetching and replaying historical blocks. Requires some peers in the network to take and serve state machine snapshots. State sync is not attempted if the node has any local state (LastBlockHeight > 0). The node will have a truncated block history, starting from the height of the snapshot.
 
-``` bash
-enable = {{ .StateSync.Enable }}
-```
+In the Tendermint config file there is a state-sync section. Some of these fields must be filled in order to use state-sync.
 
-Additionally, some nodes in the network must take state sync snapshots, which are configured in app.toml:
+To find out how to fill in this information please visit: <https://docs.tendermint.com/master/tendermint-core/state-sync.html>
+
+Additionally, some nodes in the network must take state sync snapshots, which are configured in `app.toml`:
 
 Snapshot-interval specifies the block interval at which local state sync snapshots are taken (0 to disable). Must be a multiple of pruning-keep-every.
 

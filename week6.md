@@ -1,6 +1,7 @@
 # Stargate Week 6 August 12th
 
 ## Executive Summary
+
 Gaia migration continues.
 
 We are working on getting the MVP gaia migration story done. As we started the gaia migration this week, we realized that there were a lot cosmetic changes to the Cosmos SDK. Package names have been altered as files moved. These changes are frequently cosmetic but trying to bring Gaia up to date we realized that the change set would probably result in nearly every line changing.
@@ -13,17 +14,15 @@ Our big goals for the forth coming week now launching the Lunie testnet and coll
 
 The other big miletstone is Amino was finally fully removed from IBC.
 
-
 ## Key Activities
+
 * Start Gaia migration
 
 * IBC Flow of funds next steps
 
 * Collect production Validator Keys for testnet genesis files
 
-
 ## Workstreams
-
 
 ### IBC team (Interchain GmbH)
 
@@ -33,11 +32,9 @@ Complete Amino removal and upgrade to Tendermint 0.34 integration candidates
 
 Debugging issues found in integration testing.
 
-
 ### SDK team (Regen)
 
-Amazing progress on genesis migrationa and prep for the simulated upgrade network.
-
+Amazing progress on genesis migrations and prep for the simulated upgrade network.
 
 ### Iqlusion team
 

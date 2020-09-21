@@ -6,7 +6,7 @@ Massive progress in the Stargate Week 7
 
 The biggest milestone is the Tendermint team has completed all test and integration milestones for Stargate.
 
-Tendermint 0.34 rc3 is out and integrated into Cosmos SDK master. There are some important issues remaining like height preserving ugprades and filling out the SDK side of the State sync. The changes to Tendermint to allow upgrades to avoid reseting the block height to zero was a major feature requests from both the IBC team and cryptocurrency exchanges. Huge thanks to the Tendermint team for landing this.
+Tendermint 0.34 rc3 is out and integrated into Cosmos SDK master. There are some important issues remaining like height preserving upgrades and filling out the SDK side of the State sync. The changes to Tendermint to allow upgrades to avoid reseting the block height to zero was a major feature requests from both the IBC team and cryptocurrency exchanges. Huge thanks to the Tendermint team for landing this.
 
 The next big milestone is an initial Gaia v3.0 candidate was built for our internal testnet for our Stargate champions. We are getting started on integrations with Lunie.
 
@@ -37,7 +37,7 @@ We are closely watching progress the [migration issue](https://github.com/cosmos
 ### SDK team (Regen)
 
 * [migrate command is the main blocker on testnet launc](https://github.com/cosmos/cosmos-sdk/pull/6839)
-* Ongoing process towards the mileston
+* Ongoing process towards the milestone
 
 ### Supervisor Team(All in Bits)
 
