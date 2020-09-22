@@ -1,6 +1,6 @@
 {
   "genesis_time": "2020-09-19T05:27:12.058669Z",
-  "chain_id": "stargate-3",
+  "chain_id": "stargate-3a",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -740,7 +740,7 @@
                 "pubkey": "cosmosvalconspub1zcjduepqr7h5q6g369e4xjzkr8ks729mum7k5dr3hjnladt745jxekquh2ksnspuvu",
                 "value": {
                   "denom": "umuon",
-                  "amount": "100000000"
+                  "amount": "10000000000"
                 }
               }
             ],
@@ -770,7 +770,7 @@
             }
           },
           "signatures": [
-            "lpn8EHI7FpSgD1xGBlsf6fanWOOxMC+HJiN51dEB77BlIWTXa9vIhmYRW9hlY28GV7AVi4Y7cGl1RzvzSP7PMw=="
+            "GFpVaXqH6frqTgEmQ+tMPJlY4SCca5Po3cl4N45wWu4Bzy8NqiuYnf8k3cYjDGfCpN701MQPBACf5ttN++lQYQ=="
           ]
         }
       ]
