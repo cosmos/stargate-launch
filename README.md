@@ -32,7 +32,7 @@ This testnet is intended for:
 
 * Testing wallets, exchanges and block explorers against the legacy Amino REST interface
 * Giving node operators and validators an opportunity to test their integrations against a work in progress version
-* Playing with new Stargate features including IBC but real testing of IBC will wait on Akash updating the Relayer and possibly a future testnet.
+* Playing with new Stargate features including IBC is possible now with the Akash realyer! Try it out at https://github.com/ovrclk/relayer/releases/tag/stargate-3
 
 We anticipate restarting this testnet with future integration targets. Once we have a migration script, we will launch a testnet with a simulated upgrade from cosmoshub-3.
 
