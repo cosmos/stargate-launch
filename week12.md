@@ -24,7 +24,9 @@ The timeline in my mind is Oct 31st for a final upgrade governance proposal and 
 
 
 ### Tendermint Core team (Interchain GmbH)
-
+- Released v0.34.0-rc4: https://github.com/tendermint/tendermint/releases/tag/v0.34.0-rc4 
+    - This RC is feature complete. Future RCs will only include bug fixes. 
+    - See [the changelog](https://github.com/tendermint/tendermint/blob/v0.34.0-rc4/CHANGELOG.md#v0340-rc4) for a full list of changes between RC3 and RC4. 
 
 ### SDK team (Regen)
 
