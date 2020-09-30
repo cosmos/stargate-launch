@@ -47,7 +47,7 @@ Exchanges currently participating in the Cosmos Stargate integration testing
 | Exchange | Bithumb | Contact made |
 | Exchange | Indodax | Contact made |
 | Exchange | Liquid | Contact made |
-| Exchange | BtcTurk | Pro | Contact made |
+| Exchange | BtcTurk | Contact made |
 | Exchange | Paribu | Contact made |
 | Exchange | Bitso | Contact made |
 | Exchange | CoinEx | Contact made |
