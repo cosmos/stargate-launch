@@ -250,7 +250,7 @@ If you are building a new integration, you should consider if SIGN_MODE_DIRECT a
 The `/txs/[hash]` endpoint will continue to be available but there are substantial changes to the JSON that cannot be hidden behind the legacy amino facade that other endpoints use.
 
 A cosmoshub-3 response looks like this:
-``` json
+```json
 
 {
   "height": "3544383",
@@ -373,6 +373,9 @@ A cosmoshub-3 response looks like this:
 ```
 
 A new Stargate response looks like this:
+
+Take note of the new Auth info fields.
+
 ```json
 {
   "height": "111102",
