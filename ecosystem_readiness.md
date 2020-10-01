@@ -1,6 +1,39 @@
 # Cosmos infrastructure ecosystem readiness
 The Iqlusion team continues to reach out to a wide network of Cosmos ecosystem partners to assist and support their Stargate integration plans. Below is the progress report on our contacts and their participation in the Cosmos Stargate integration testing.
 
+## Validators
+| Category  |  Company Name | Cosmos Stargate Status  |
+| ------------ | ------------ | ------------ |
+| Validators | Sikka | Genesis keys received  |
+| Validators | Dokia Capital | Genesis keys received  |
+| Validators | Multichain Ventures | Genesis keys received |
+| Validators | Polychain | Genesis keys received |
+| Validators | Certus One | Genesis keys received |
+| Validators | Cosmostation | Genesis keys received |
+| Validators | Figment Networks | Genesis keys received |
+| Validators | Iqlusion | Genesis keys received |
+| Validators | Coinonenode | Genesis keys received |
+| Validators | Irisnet-Bianjie | Genesis keys received |
+| Validators | Ateam | Genesis keys received |
+| Validators | Kalpatech | Genesis keys received |
+| Validators | Lunamint | Genesis keys received |
+| Validators | Hashquark | Genesis keys received |
+| Validators | Delega Networks | Genesis keys received |
+| Validators | Stakewith Us | Genesis keys received |
+| Validators | Dragonstake | Genesis keys received |
+| Validators | Compass | Genesis keys received |
+| Validators | Kochacolaj | Genesis keys received |
+| Validators | Genesis Lab | Genesis keys received |
+| Validators | Cosmic Validator | Genesis keys received |
+| Validators | Staking Fund | Genesis keys received |
+| Validators | Kytzu | Genesis keys received |
+| Validators | Everstake | Genesis keys received |
+| Validators | In3S | Genesis keys received |
+| Validators | Sg-1 | Genesis keys received |
+| Validators | Blockscape | Genesis keys received |
+| Validators | Dawns World | Genesis keys received |
+
+
 ## Wallets
 Wallets currently participating in the Cosmos Stargate integration testing
 
