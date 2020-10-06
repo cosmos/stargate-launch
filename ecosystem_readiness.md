@@ -67,7 +67,6 @@ Exchanges currently participating in the Cosmos Stargate integration testing
 | Exchange | Kraken  | Integration underway  |
 | Exchange | FTX  | Integration underway  |
 | Exchange | KuCoin  | Contact made  |
-| Exchange | Bitstamp  | Integration underway  |
 | Exchange | Poloniex | Integration underway |
 | Exchange | Upbit | Contact made |
 | Exchange | Bitfinex | Contact made |
