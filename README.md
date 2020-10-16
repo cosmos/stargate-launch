@@ -42,7 +42,7 @@ Our validator node for a persistent peer is available at
 00d8e9c0df367296436854b580d9b069d3f1a5fd@34.123.30.100:26656
 ```
 
-For users who want to test state sync, our validator node has tendermint rpc open on `34.123.10.100:26657`and we are snapshotting every 1000 blocks.
+For users who want to test state sync, our validator node has tendermint rpc open on `34.123.30.100:26657`and we are snapshotting every 1000 blocks.
 
 As of 09/21/2020, the tagged `gaia` version is [stargate-3](https://github.com/cosmos/gaia/releases/tag/stargate-3)
 
