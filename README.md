@@ -15,11 +15,9 @@ Help us to get the word out–this is a major leap for the Cosmos Network and we
 
 ## Testnet
 
-We've launched the third public alpha testnet `stargate-3` for the Stargate Upgrade on Monday September 21th.
+We've launched the third public alpha testnet `stargate-4` for the Stargate Upgrade on Thursday Oct 15th.
 
-Stargate-3 is a big testnet milestone for the Stargate initiative. 
-
-This release fixes issues with Legacy Amino that were discovered in `stargate-1/2`. We believe that this version is now good to test for exchanges and wallets.
+`Stargate-4` is based on Cosmos SDK-0.40-rc0. This is a nearly complete release of Cosmos Stargate.
 
 The following features are live on the testnet.
 
@@ -32,7 +30,7 @@ This testnet is intended for:
 
 * Testing wallets, exchanges and block explorers against the legacy Amino REST interface
 * Giving node operators and validators an opportunity to test their integrations against a work in progress version
-* Playing with new Stargate features including IBC is possible now with the Akash realyer! Try it out at https://github.com/ovrclk/relayer/releases/tag/stargate-3
+* Playing with new Stargate features including IBC is possible now with the Akash realyer! Try it out at https://github.com/ovrclk/relayer/releases/tag/stargate-4
 
 We anticipate restarting this testnet with future integration targets. Once we have a migration script, we will launch a testnet with a simulated upgrade from cosmoshub-3.
 
@@ -44,13 +42,13 @@ Our validator node for a persistent peer is available at
 
 For users who want to test state sync, our validator node has tendermint rpc open on `34.123.10.100:26657`and we are snapshotting every 1000 blocks.
 
-As of 09/21/2020, the tagged `gaia` version is [stargate-3](https://github.com/cosmos/gaia/releases/tag/stargate-3)
+As of 10/15/2020, the tagged `gaia` version is [stargate-4](https://github.com/cosmos/gaia/releases/tag/stargate-4)
 
 Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
 
 ```bash
 git clone https://github.com/cosmos/gaia
-git checkout stargate-3
+git checkout stargate-4
 make build
 ```
 
