@@ -58,7 +58,7 @@ The genesis file is available [here](genesis.json)
 The sha256sum of the genesis is
 ```bash
 ❯ sha256sum genesis.json
-346dac9029a686845ee7ffd711a0c2479a6422c10f92f31ded6da8c6f4efbbc5  genesis.json
+aaecac719fbbba2ba9117eb419febd2d99b9c6947e3c3b31f889e4da7d24c1d8  genesis.json
 ```
 
 
