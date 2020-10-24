@@ -15,24 +15,47 @@ Help us to get the word out–this is a major leap for the Cosmos Network and we
 
 ## Testnet
 
-We've launched the third public alpha testnet `stargate-4` for the Stargate Upgrade on Thursday Oct 15th.
+We've now launched the Cosmos Hub Stargate testnet `cosmos-hub-stargate` for the Stargate simulated upgrade on October 28, 2020
 
-`Stargate-4` is based on Cosmos SDK-0.40-rc0. This is a nearly complete release of Cosmos Stargate.
+`cosmos-hub-stargate` is based on Cosmos SDK-0.40-rc1.
 
 The following features are live on the testnet.
 
 * Legacy Amino
 * IBC
 * State-Sync 
+* Cosmovisor
 
 
-This testnet is intended for:
+This testnet is intended to be a simulation testnet for Cosmos Hub-3
 
+### Simulated Cosmos Hub-3 Upgrade
+A test migration command targeted the blockheight dated around 10/04/2020 for the migration was as follows:
+
+```bash
+git clone https://github.com/cosmos/gaia
+git checkout cosmos-hub-stargate
+make build
+```
+
+```
+build/gaiad migrate ~/3557667.cosmos_hub_3.json --chain-id=cosmoshub-4 --initial-height 3557668 --replacement-cons-keys ~/iqlusion_work/stargate/validator_replacement.json
+```
+
+If you want to reproduce, you may download the Cosmos Hub-3 snapshot here:
+[https://storage.googleapis.com/stargate-genesis/3557667.cosmos_hub_3.json](https://storage.googleapis.com/stargate-genesis/3557667.cosmos_hub_3.json)
+
+and the Cosmos Hub-3 genesis snapshot of hub at block height 3557667
+[https://storage.googleapis.com/stargate-genesis/snapshot.tgz](https://storage.googleapis.com/stargate-genesis/snapshot.tgz)
+
+This migration command accomplishes the following:
+1. Takes the public keys and produces a new validating blockchain
+
+### Stargate-4 Testing
 * Testing wallets, exchanges and block explorers against the legacy Amino REST interface
 * Giving node operators and validators an opportunity to test their integrations against a work in progress version
 * Playing with new Stargate features including IBC is possible now with the Akash realyer! Try it out at https://github.com/ovrclk/relayer/releases/tag/stargate-4
 
-We anticipate restarting this testnet with future integration targets. Once we have a migration script, we will launch a testnet with a simulated upgrade from cosmoshub-3.
 
 Our validator node for a persistent peer is available at
 
@@ -42,7 +65,7 @@ Our validator node for a persistent peer is available at
 
 For users who want to test state sync, our validator node has tendermint rpc open on `34.123.30.100:26657`and we are snapshotting every 1000 blocks.
 
-As of 10/15/2020, the tagged `gaia` version is [stargate-4](https://github.com/cosmos/gaia/releases/tag/stargate-4)
+As of 10/22/2020, the tagged `gaia` version is [stargate-4]()
 
 Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
 
@@ -50,15 +73,6 @@ Remember this version now has a single binary instead of `gaiacli/gaiad` and muc
 git clone https://github.com/cosmos/gaia
 git checkout stargate-4
 make build
-```
-
-
-
-The genesis file is available [here](genesis.json)
-The sha256sum of the genesis is
-```bash
-❯ sha256sum genesis.json
-aaecac719fbbba2ba9117eb419febd2d99b9c6947e3c3b31f889e4da7d24c1d8  genesis.json
 ```
 
 
