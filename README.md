@@ -29,27 +29,37 @@ The following features are live on the testnet.
 
 This testnet is intended to be a simulation testnet for Cosmos Hub-3
 
-### Simulated Cosmos Hub-3 Upgrade
+### Simulated CosmosHub-3 Upgrade
 A test migration command targeted the blockheight dated around 10/04/2020 for the migration was as follows:
 
+Step 1:
 ```bash
 git clone https://github.com/cosmos/gaia
-git checkout cosmos-hub-stargate
+git checkout cosmoshub-test-stargate
 make build
 ```
 
+Step 2: The Cosmos Hub-3 genesis snapshot of hub at block height 3557667 is here: [https://storage.googleapis.com/stargate-genesis/3557667.cosmos_hub_3.json](https://storage.googleapis.com/stargate-genesis/3557667.cosmos_hub_3.json)
+
+Step 3: There is a full copy of a cosmos hub full node here: [https://storage.googleapis.com/stargate-genesis/snapshot.tgz](https://storage.googleapis.com/stargate-genesis/snapshot.tgz)
+
+Step 4: Using Gaia 2.0 and this cosmos node above, 
 ```
-build/gaiad migrate ~/3557667.cosmos_hub_3.json --chain-id=cosmoshub-4 --initial-height 3557668 --replacement-cons-keys ~/iqlusion_work/stargate/validator_replacement.json
+gaiad export > 3557667.cosmos_hub_3.json
+```
+Step 5: Using the crowdsourced public keys from the Stargate repo:
+```
+build/gaiad migrate ~/3557667.cosmos_hub_3.json --chain-id=cosmoshub-test-stargate --initial-height 3557668 --replacement-cons-keys ~/stargate/validator_replacement.json
 ```
 
-If you want to reproduce, you may download the Cosmos Hub-3 snapshot here:
-[https://storage.googleapis.com/stargate-genesis/3557667.cosmos_hub_3.json](https://storage.googleapis.com/stargate-genesis/3557667.cosmos_hub_3.json)
+Outcome: The output should match the genesis file at  https://storage.googleapis.com/stargate-genesis/cosmoshub-test-stargate.json
 
-and the Cosmos Hub-3 genesis snapshot of hub at block height 3557667
-[https://storage.googleapis.com/stargate-genesis/snapshot.tgz](https://storage.googleapis.com/stargate-genesis/snapshot.tgz)
+**NOTE:** We manually went in and edited the quorum and voting period for governance to enable faster testing of the IBC related governance functions in this testnet.
+
 
 This migration command accomplishes the following:
 1. Takes the public keys and produces a new validating blockchain
+2. [TO BE UPDATED]
 
 ### Stargate-4 Testing
 * Testing wallets, exchanges and block explorers against the legacy Amino REST interface
