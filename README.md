@@ -54,7 +54,10 @@ build/gaiad migrate ~/3557667.cosmos_hub_3.json --chain-id=cosmoshub-test-starga
 
 Outcome: The output should match the genesis file at  https://storage.googleapis.com/stargate-genesis/cosmoshub-test-stargate.json
 
-**NOTE:** We manually went in and edited the quorum and voting period for governance to enable faster testing of the IBC related governance functions in this testnet.
+**NOTE:** 
+1. We manually went in and edited the quorum and voting period for governance to enable faster testing of the IBC related governance functions in this testnet.
+
+2. We are actively tracking one final [IBC security issue](https://github.com/cosmos/cosmos-sdk/issues/7606) that will require us to update to an rc-2.
 
 
 This migration command accomplishes the following:
