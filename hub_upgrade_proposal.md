@@ -33,9 +33,9 @@ The purpose of the Stargate effort was to ensure that Cosmos can fulfill the vis
 ### 1. Ecoystem Participation:
 The results of ecosystem participation and engagement are available in our [Stargate Ecosystem Readiness Report](https://github.com/cosmosdevs/stargate/blob/master/ecosystem_readiness.md). We list on this page ecosystem partners such as Validators that provided their validator public keys as well as infrastructure partners that confirmed their integration testing the Stargate testnet tags. Validators, exchanges, and wallets have made up the most responsive of their results completing integration testing of the stargate releases.
 
-The Cosmos SDK, Tendermint, AiB, and IBC teams worked tirelessly to deliver the most robust software feature set that would make up the Cosmos Stargate release. Their review of their efforts are documented in their recap blog post ["How Seven Teams Collaborated To Deliver The Biggest Software Upgrade In The Cosmos Universe"](https://blog.cosmos.network/how-seven-teams-collaborated-to-deliver-the-biggest-software-upgrade-in-the-cosmos-universe-2288f4f9afe8).
+The Cosmos SDK, Tendermint, AiB, and IBC teams worked tirelessly to deliver the most robust software feature set that would make up the Cosmos Stargate release. Their review of their efforts are documented in their post ["How Seven Teams Collaborated To Deliver The Biggest Software Upgrade In The Cosmos Universe"](https://blog.cosmos.network/how-seven-teams-collaborated-to-deliver-the-biggest-software-upgrade-in-the-cosmos-universe-2288f4f9afe8).
 
-Integration testing continued through the release of the Cosmos SDK v0.40.0-rc1 that makes up the Cosmos-hub Stargate testnet that was tagged for a simulated upgrade of the CosmosHub. Also, the AiB team continues to deliver simulation testing of Cosmos Stargate to ensure that any possible chain bug issues can be detected and documented. 
+Integration testing continued through the release of the Cosmos SDK v0.40.0-rc2 that makes up the Cosmos-hub Stargate testnet tag for a simulated upgrade of the CosmosHub-3 to CosmosHub-4. Also, the AiB team continues to deliver simulation testing of Cosmos Stargate to ensure that any possible chain bug issues can be detected and documented. 
 
 We are confident that we have and continue to achieve increased ecosystem engagement with the Stargate testnet.
 
@@ -49,19 +49,21 @@ We also completed and delivered a completed legacy Amino Audit, [AminoRest & You
 ### 3. Documentation and Self-Certification
 Documentation was a success for the Cosmos Stargate effort. The upgrades with the most breaking changes such as legacy Amino have a complete audit with documentation on exceptions for blockchain API interfaces.
 
-Most exchanges and wallets have taken self-certification on directly. Our team continues to provide real-time support on multiple partner slack channels and on the Cosmos #stargate Discord channel.
-
+Most exchanges and wallets have taken self-certification on directly. Our team continues to provide real-time support on multiple partner slack channels and on the Cosmos [#stargate Discord](https://discord.gg/W8trcGV) channel.
 
 
 ### Cosmos Stargate Integration Success
-
-
+Cosmos Stargate integration success with exchanges and wallet providers reflects the quality of the code developed by the various Cosmos teams.
 
 ## Stargate Upgrade Steps
 ------------
+The upgrade steps for the simulated upgrade of the current Cosmoshub mainnet to Cosmos Stargate includes the following steps:
+
+1. 
 
 ## Time of the Upgrade
 ------------
+We propose scheduling the Cosmoshub-3 to Cosmoshub-4 simulated upgrade for Thursday November 5th, 2020 at [XX00 UTC]
 
 ## The git commit of Gaia that we are upgrading to
 ------------
@@ -76,4 +78,4 @@ Most exchanges and wallets have taken self-certification on directly. Our team c
 ------------
 Bugs
 Commit hash changes
-Other issues    
+Other issues
