@@ -55,11 +55,6 @@
       "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqr2mcvpt43a5fspxyse04c4fe8rdmg90vqv67praxt4jzqmep0myqjpq7kk"
     },
     {
-      "validator_name": "DragonStake",
-      "validator_address": "cosmosvaloper15r4tc0m6hc7z8drq3dzlrtcs6rq2q9l2nvwher",
-      "stargate_consensus_public_key": "cosmosvalconspub1addwnpepqdhnuhqu9qkl7y8rfzhm89gxjqvf6kk0kzfqm4gxe4svawy0ke4ewrnx9d6"
-    },
-    {
       "validator_name": "Everstake",
       "validator_address": "cosmosvaloper1tflk30mq5vgqjdly92kkhhq3raev2hnz6eete3",
       "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqwcvy8hyw2phdp080ggj7prxv972rvqc9gwyjnl0uwf7uxn63s8vqdctdcw"
