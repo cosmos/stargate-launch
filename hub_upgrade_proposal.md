@@ -1,11 +1,22 @@
 # Cosmos Stargate Hub Upgrade Proposal 2
 ## by Iqlusion 
 
-October 20, 2020
+October 31, 2020
+
+Current Status: Draft
+Blocked on Final Code Hashes from the IBC, Tendermint and SDK teams.
+
+## Key Results
+------------
+If passed, this governance proposal would commit the Cosmos Hub to upgrading to halting the `cosmoshub-3` at 06:00 UTC on Nov 19 exporting the state and starting `cosmoshub-4` based on gaia 3.0.
+
 
 ## Context
 ------------
-Stargate is our name for the process of ensuring that the widely integrated public network known as the Cosmos Hub is able to execute the cosmoshub-3 -> cosmoshub-4 upgrade with the minimum disruption to its existing ecosystem. This upgrade will also realize the Internet of Blockchains vision from the Cosmos whitepaper.
+
+In proposal 27, Iqlusion proposed a comprehensive process to translate the unprecented surface area of this upgrade. We called this process Stargate. 
+
+Iqlusion is pleased to report that the Stargate Process has been successfully executed. We believe the chevrons are unlocked and that Hub can safely step throught the Stargate.
 
 After the success of the community approval of the first Stargate Upgrade proposal, we now follow-up with the second Stargate proposal for the Cosmos Hub that will outline the results of the first proposal and the process for upgrading the Hub.
 
@@ -39,8 +50,6 @@ Integration testing continued through the release of the Cosmos SDK v0.40.0-rc2 
 
 We are confident that we have and continue to achieve increased ecosystem engagement with the Stargate testnet.
 
-
-
 ### 2. Critical Partner Support 
 We delivered critical partner support to leading ATOM exchanges. Out of the exchange support efforts, we documented the [IBC Readiness Matrix](https://github.com/cosmosdevs/stargate/blob/master/ibc_readiness_matrix.md) that outlines the levels of readiness that exchanges may select as they upgrade to Cosmos Stargate. 
 
@@ -59,7 +68,19 @@ Cosmos Stargate integration success with exchanges and wallet providers reflects
 ------------
 The upgrade steps for the simulated upgrade of the current Cosmoshub mainnet to Cosmos Stargate includes the following steps:
 
-1. 
+This section is with the current `gaia 2.0.*` implementation.
+
+  1. Validators should set their `gaia` with a halt time of `1605765600`ie. 06:00 UTC on Nov 19th in Unix time.
+
+  2. Validators should then export the current cosmos state with `gaiad export > cosmoshub-3-export.json`
+
+  3. Validators should determine the height the last block.
+
+
+This section is with the upgrade `gaia 3.0.*` implemenataion.
+
+  1. Validators should then migrate the exported genesis state. `gaiad migrate cosmoshub-3-export.json --chain-id=cosmoshub-test-stargate --initial-height [last_cosmoshub-3-block+1]`
+  2. 
 
 ## Time of the Upgrade
 ------------
