@@ -33,6 +33,9 @@ The Iqlusion team continues to reach out to a wide network of Cosmos ecosystem p
 | Validators | Sg-1 | Genesis keys received |
 | Validators | Blockscape | Genesis keys received |
 | Validators | Dawns World | Genesis keys received |
+| Validators | Stake Capital | Genesis keys received |
+| Validators | Alphemy Capital | Genesis keys received |
+| Validators | Kalpa Tech | Genesis keys received |
 
 
 ## Wallets
