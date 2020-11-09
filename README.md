@@ -15,9 +15,9 @@ Help us to get the word out–this is a major leap for the Cosmos Network and we
 
 ## Testnet
 
-We've now launched the Cosmos Hub Stargate testnet `cosmos-hub-stargate` for the Stargate simulated upgrade on October 28, 2020
+We've now launched the Cosmos Hub Stargate testnet `cosmoshub-test-stargate` for the Stargate simulated upgrade on October 28, 2020
 
-`cosmos-hub-stargate` is based on Cosmos SDK-0.40-rc1.
+`cosmoshub-test-stargate` is based on Cosmos SDK-0.40-rc3.
 
 The following features are live on the testnet.
 
@@ -30,7 +30,7 @@ The following features are live on the testnet.
 This testnet is intended to be a simulation testnet for Cosmos Hub-3
 
 ### Simulated CosmosHub-3 Upgrade
-A test migration command targeted the blockheight dated around 10/04/2020 for the migration was as follows:
+A test migration command targeted the blockheight dated around 11/01/2020 for the migration was as follows:
 
 Step 1:
 ```bash
@@ -39,27 +39,48 @@ git checkout cosmoshub-test-stargate
 make build
 ```
 
-Step 2: The Cosmos Hub-3 genesis snapshot of hub at block height 3557667 is here: [https://storage.googleapis.com/stargate-genesis/3557667.cosmos_hub_3.json](https://storage.googleapis.com/stargate-genesis/3557667.cosmos_hub_3.json)
+Step 2: The Cosmos Hub-3 genesis snapshot of hub at block height 3924406 is here: [ttps://storage.googleapis.com/stargate-genesis/3924406.cosmoshub-3.json](ttps://storage.googleapis.com/stargate-genesis/3924406.cosmoshub-3.json)
 
 Step 3: There is a full copy of a cosmos hub full node here: [https://storage.googleapis.com/stargate-genesis/snapshot.tgz](https://storage.googleapis.com/stargate-genesis/snapshot.tgz)
 
 Step 4: Using Gaia 2.0 and this cosmos node above, 
 ```
-gaiad export > 3557667.cosmos_hub_3.json
+gaiad export > 3924406.cosmos_hub_3.json
 ```
 Step 5: Using the crowdsourced public keys from the Stargate repo:
 ```
-build/gaiad migrate ~/3557667.cosmos_hub_3.json --chain-id=cosmoshub-test-stargate --initial-height 3557668 --replacement-cons-keys ~/stargate/validator_replacement.json
+build/gaiad migrate ~/3924406.cosmos_hub_3.json --chain-id=cosmoshub-test-stargate --initial-height 3924407 --replacement-cons-keys ~/stargate/validator_replacement.json > migrated_genesis.json
+
+jq . migrated_genesis.json > genesis.json
 ```
 
-Outcome: The output should match the genesis file at  https://storage.googleapis.com/stargate-genesis/cosmoshub-test-stargate.json
+To simplify testing, we manually adjusted some governance parameters.
+
+``` json
+      {
+      "tally_params": {
+        "quorum": "0.050000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      },
+      "votes": [],
+      "voting_params": {
+        "voting_period": "172800s"
+      }
+      }
+```
+
+
+
+Outcome: The output should match the genesis file at  https://storage.googleapis.com/stargate-genesis/genesis.json
+
+`b1b51ff6b04b3b3e1df56af99d175c80add9c82c027cad5edfc5d252cd30d042`
 
 **NOTE:** 
-1. Node start with the genesis file takes approximately 2 hours to complete.
+1. `gaiad start` will preform an extensive audit of the genesis file state that takes > 1 hour. `gaiad start --x-crisis-invariants` skips the audits and starts a node in 15 min.
 
 3. We manually went in and edited the quorum and voting period for governance to enable faster testing of the IBC related governance functions in this testnet.
 
-4. We are actively tracking one final [IBC security issue](https://github.com/cosmos/cosmos-sdk/issues/7606) that will require us to update to an rc-2.
 
 
 This migration command accomplishes the following:
