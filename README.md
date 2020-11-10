@@ -138,6 +138,8 @@ snapshot-keep-recent = {{ .StateSync.SnapshotKeepRecent }}
 
 These are disabled by default, out of caution - this is new code, and we wouldn't want it to cause a chain-wide halt or data corruption. Eventually we can consider enabling them by default.
 
+# Weekly Updates
+
 - [Week 1 Status July 2nd, 2020](week1.md)
 - [Week 2 Status July 11th, 2020](week2.md)
 - [Week 3 Status July 17th, 2020](week3.md)
