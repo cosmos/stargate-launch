@@ -4,6 +4,7 @@ The Iqlusion team continues to reach out to a wide network of Cosmos ecosystem p
 ## Validators
 | Category  |  Company Name | Cosmos Stargate Status  |
 | ------------ | ------------ | ------------ |
+| Validators | Bison Trails | Genesis keys received |
 | Validators | P2P.ORG - P2P Validator | Genesis keys received |
 | Validators | Sikka | Genesis keys received  |
 | Validators | Dokia Capital | Genesis keys received  |
