@@ -197,5 +197,20 @@
     "validator_name": "P2P.ORG",
     "validator_address": "cosmosvaloper132juzk0gdmwuxvx4phug7m3ymyatxlh9734g4w",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq8qrnv9ewmps46gyjqyzajmtay7hrj5dz7fsxh4qc7p3xnwumvrls38dv5r"
+  },
+  {
+    "validator_name": "Bison Trails",
+    "validator_address": "cosmosvaloper1crqm3598z6qmyn2kkcl9dz7uqs4qdqnr6s8jdn",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqtqyz8x2nf5rpq4cq2g6y4rcflcxk5d4kjy5ugsqmpelaxd3kngdsmqhz9k"
+  },
+  {
+    "validator_name": "Ping Pub",
+    "validator_address": "cosmosvaloper1jxv0u20scum4trha72c7ltfgfqef6nsch7q6cu",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqvwa5jswyy32vm26agf42jtfsazxssxem8jkntucwkq9p6lj2szzsklqn0f"
+  },
+  {
+    "validator_name": "Citizen Cosmos",
+    "validator_address": "cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqehuq39q3pkvalrjqmq8uf2f0dfs07uezs78wdwmzlwhkqn09gzwq0gdsal"
   }
 ]
