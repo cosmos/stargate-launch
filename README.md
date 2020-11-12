@@ -91,10 +91,10 @@ Outcome: The output should match the genesis file at  https://storage.googleapis
 Our validator node for a persistent peer is available at
 
 ``` bash
-cb257f45884e10accd5f75c1086e57b0f9d29dce@cb257f45884e10accd5f75c1086e57b0f9d29dce@34.66.55.131:26656
+e096c06890c8de6c030c05833c88c65651e0abed@34.66.55.131:26656
 ```
 
-For users who want to test state sync, our validator node has tendermint rpc open on `34.123.30.100:26657`and we are snapshotting every 1000 blocks.
+For users who want to test state sync, our validator node has tendermint rpc open on `34.66.55.131:26657`and we are snapshotting every 1000 blocks.
 
 As of 11/11/2020, the tagged `gaia` version is [cosmoshub-test-stargate](https://github.com/cosmos/gaia/tree/cosmoshub-test-stargate)
 
