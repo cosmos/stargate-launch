@@ -96,13 +96,13 @@ cb257f45884e10accd5f75c1086e57b0f9d29dce@cb257f45884e10accd5f75c1086e57b0f9d29dc
 
 For users who want to test state sync, our validator node has tendermint rpc open on `34.123.30.100:26657`and we are snapshotting every 1000 blocks.
 
-As of 10/22/2020, the tagged `gaia` version is [cosmoshub-test-stargate](https://github.com/cosmos/gaia/tree/cosmoshub-test-stargate)
+As of 11/11/2020, the tagged `gaia` version is [cosmoshub-test-stargate](https://github.com/cosmos/gaia/tree/cosmoshub-test-stargate)
 
 Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
 
 ```bash
-git clone https://github.com/cosmos/cosmoshub-test-stargate
-git checkout stargate-4
+git clone https://github.com/cosmos/gaia
+git checkout cosmoshub-test-stargate
 make build
 ```
 
