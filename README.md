@@ -82,12 +82,7 @@ Outcome: The output should match the genesis file at  https://storage.googleapis
 3. We manually went in and edited the quorum and voting period for governance to enable faster testing of the IBC related governance functions in this testnet.
 
 
-
-This migration command accomplishes the following:
-1. Takes the public keys and produces a new validating blockchain
-2. [TO BE UPDATED]
-
-### Stargate-4 Testing
+### Stargate-5 Testing
 * Testing wallets, exchanges and block explorers against the legacy Amino REST interface
 * Giving node operators and validators an opportunity to test their integrations against a work in progress version
 * Playing with new Stargate features including IBC is possible now with the Akash realyer! Try it out at https://github.com/ovrclk/relayer/releases/tag/stargate-4
@@ -96,17 +91,17 @@ This migration command accomplishes the following:
 Our validator node for a persistent peer is available at
 
 ``` bash
-00d8e9c0df367296436854b580d9b069d3f1a5fd@34.123.30.100:26656
+cb257f45884e10accd5f75c1086e57b0f9d29dce@cb257f45884e10accd5f75c1086e57b0f9d29dce@34.66.55.131:26656
 ```
 
 For users who want to test state sync, our validator node has tendermint rpc open on `34.123.30.100:26657`and we are snapshotting every 1000 blocks.
 
-As of 10/22/2020, the tagged `gaia` version is [stargate-4]()
+As of 10/22/2020, the tagged `gaia` version is [cosmoshub-test-stargate](https://github.com/cosmos/gaia/tree/cosmoshub-test-stargate)
 
 Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
 
 ```bash
-git clone https://github.com/cosmos/gaia
+git clone https://github.com/cosmos/cosmoshub-test-stargate
 git checkout stargate-4
 make build
 ```
@@ -137,8 +132,6 @@ snapshot-keep-recent = {{ .StateSync.SnapshotKeepRecent }}
 ```
 
 These are disabled by default, out of caution - this is new code, and we wouldn't want it to cause a chain-wide halt or data corruption. Eventually we can consider enabling them by default.
-
-# Weekly Updates
 
 - [Week 1 Status July 2nd, 2020](week1.md)
 - [Week 2 Status July 11th, 2020](week2.md)
