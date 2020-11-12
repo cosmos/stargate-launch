@@ -212,14 +212,12 @@
     "validator_name": "Citizen Cosmos",
     "validator_address": "cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqehuq39q3pkvalrjqmq8uf2f0dfs07uezs78wdwmzlwhkqn09gzwq0gdsal"
-  }
-  ,
+  },
   {
     "validator_name": "Tessellated Geometry",
     "validator_address": "cosmosvaloper1fun809ksxh87nzf88yashp9ynjz6xkscrtvzvw",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq8axexx8w5wf64wufk20q083ycqgfdy50j03xg78ldzv6cu0n0xgq59sqhr"
-  }
-  ,
+  },
   {
     "validator_name": "chainflow-cosmos-prodval-01",
     "validator_address": "cosmosvaloper1j0vaeh27t4rll7zhmarwcuq8xtrmvqhudrgcky",
