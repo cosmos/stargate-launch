@@ -42,7 +42,9 @@ We intend to audit the Transaction Encoding/Broadcaste interface shortly but we 
 ```"/bank/balances/{address}"```
 * **What Changed:** 
   * No Changes observed.
-  * See [coin cross-chain transfer source tracing](https://github.com/cosmos/cosmos-sdk/pull/6662) for details on how on non-native IBC coins will written into the denom value. This will include a hash of source trace for each coin. The core decision if the hash should replace the denom or be prepended to the denom.
+  * See [coin cross-chain transfer source tracing](https://github.com/cosmos/cosmos-sdk/blob/master/x/ibc/applications/transfer/spec/01_concepts.md) for details on how on non-native IBC coins will written into the denom value. This will include a hash of source trace for each coin. The core decision if the hash should replace the denom or be prepended to the denom.
+  * You can no longer retrieve balance information via the account query. Balances are only available via bank now.
+
 
 
 
