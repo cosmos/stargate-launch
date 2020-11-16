@@ -77,7 +77,7 @@ Outcome: The output should match the genesis file at  https://storage.googleapis
 `b1b51ff6b04b3b3e1df56af99d175c80add9c82c027cad5edfc5d252cd30d042`
 
 **NOTE:** 
-1. `gaiad start` will preform an extensive audit of the genesis file state that takes > 1 hour. `gaiad start --x-crisis-invariants` skips the audits and starts a node in 15 min.
+1. `gaiad start` will preform an extensive audit of the genesis file state that takes > 1 hour. `gaiad start --x-crisis-skip-assert-invariants` skips the audits and starts a node in 15 min.
 
 3. We manually went in and edited the quorum and voting period for governance to enable faster testing of the IBC related governance functions in this testnet.
 
