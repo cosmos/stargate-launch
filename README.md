@@ -74,7 +74,9 @@ To simplify testing, we manually adjusted some governance parameters.
 
 Outcome: The output should match the genesis file at  https://storage.googleapis.com/stargate-genesis/genesis.json
 
-`b1b51ff6b04b3b3e1df56af99d175c80add9c82c027cad5edfc5d252cd30d042`
+shas256sum genesis.json
+
+`759413052c854ca75f3bfeec579e3cea00f283646b0ea0d30b6b15e4d13f814b`
 
 **NOTE:** 
 1. `gaiad start` will preform an extensive audit of the genesis file state that takes > 1 hour. `gaiad start --x-crisis-invariants` skips the audits and starts a node in 15 min.
