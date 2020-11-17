@@ -79,7 +79,7 @@ shas256sum genesis.json
 `759413052c854ca75f3bfeec579e3cea00f283646b0ea0d30b6b15e4d13f814b`
 
 **NOTE:** 
-1. `gaiad start` will preform an extensive audit of the genesis file state that takes > 1 hour. `gaiad start --x-crisis-invariants` skips the audits and starts a node in 15 min.
+1. `gaiad start` will preform an extensive audit of the genesis file state that takes > 1 hour. `gaiad start --x-crisis-skip-assert-invariants` skips the audits and starts a node in 15 min.
 
 3. We manually went in and edited the quorum and voting period for governance to enable faster testing of the IBC related governance functions in this testnet.
 
