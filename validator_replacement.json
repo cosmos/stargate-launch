@@ -222,5 +222,10 @@
     "validator_name": "chainflow-cosmos-prodval-01",
     "validator_address": "cosmosvaloper1j0vaeh27t4rll7zhmarwcuq8xtrmvqhudrgcky",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqte39vggwm75vx65grlv0w7k92eeysv35s20cfcepv5hmx5p58tusjwym4k"
+  },
+  {
+    "validator_name": "syncnode",
+    "validator_address": "cosmosvaloper19j2hd230c3hw6ds843yu8akc0xgvdvyuz9v02v",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqwhtsh6jmaf0yykyvkyzlp22xvdm2htj9j623ktes35vpw8f3hfds83kwpn"
   }
 ]
