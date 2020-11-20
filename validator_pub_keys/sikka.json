@@ -1,5 +1,5 @@
 {
-    "validator_name":"Sikka",
-    "validator_address":"cosmosvaloper1ey69r37gfxvxg62sh4r0ktpuc46pzjrm873ae8",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepq0d06rdx49rj2uzsze4ww82et986fhl2ahcxtj7c56pr2rmcp5ylsqzhnqt"
+    "validator_name": "Sikka",
+    "validator_address": "cosmosvaloper1ey69r37gfxvxg62sh4r0ktpuc46pzjrm873ae8",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq0d06rdx49rj2uzsze4ww82et986fhl2ahcxtj7c56pr2rmcp5ylsqzhnqt"
 }
