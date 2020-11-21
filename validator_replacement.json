@@ -29,7 +29,6 @@
     "validator_address": "cosmosvaloper19v9ej55ataqrfl39v83pf4e0dm69u89rngf928",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq6cp6vs95f0xwfle30wj07n0qexq7f5a0zgvz60mnjz03kl0evfwqgrne5q"
   },
-
   {
     "validator_name": "CCN",
     "validator_address": "cosmosvaloper1qaa9zej9a0ge3ugpx3pxyx602lxh3ztqgfnp42",
@@ -267,11 +266,6 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq5rtnxycmx2ynyj6wy6frr7c4xz4pzjn6f7wyr6ytk9ngh56lqs6qth238x"
   },
   {
-    "validator_name": "stakezone",
-    "validator_address": "cosmosvaloper1g2lpsy85795r2fgtrkgzk25m5wkrtl2xu2t3ya",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq5rtnxycmx2ynyj6wy6frr7c4xz4pzjn6f7wyr6ytk9ngh56lqs6qth238x"
-  },
-  {
     "validator_name": "Stakin",
     "validator_address": "cosmosvaloper1fhr7e04ct0zslmkzqt9smakg3sxrdve6ulclj2",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq2vrwk0dhn0kh443jxlgscd7luknvl56h3dr0pyfglxwdnhquae9srek6ew"
@@ -280,21 +274,6 @@
     "validator_name": "Staking Fund",
     "validator_address": "cosmosvaloper1000ya26q2cmh399q4c5aaacd9lmmdqp90kw2jn",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqe93asg05nlnj30ej2pe3r8rkeryyuflhtfw3clqjphxn4j3u27msrr63nk"
-  },
-  {
-    "validator_name": "TomShi",
-    "validator_address": "cosmosvaloper10sr2e9tcw5fl4tknht7j8hzw57k5s3f4zzpv88",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq4rqxjd5fjqps9mgs3snjdmpdllsew62f2yqpt83dnw0fn4cuddrsrc6m4g"
-  },
-  {
-    "validator_name": "WeStaking",
-    "validator_address": "cosmosvaloper1ptyzewnns2kn37ewtmv6ppsvhdnmeapvtfc9y5",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqtcsm8lp7n6ph98vd59qa9esgyuysuntww9juz5wynxrhzpspmuuq6g5pzg"
-  },
-  {
-    "validator_name": "Stake Capital",
-    "validator_address": "cosmosvaloper1k9a0cs97vul8w2vwknlfmpez6prv8klv03lv3d",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqfgpyq4xk4s96ksmkfrr7juea9kmdxkl5ht94xgpxe240743u9cvsht489p"
   },
   {
     "validator_name": "Staking Facilities",
