@@ -80,7 +80,7 @@ Outcome: The output should match the genesis file at https://storage.googleapis.
 
 shas256sum genesis.json
 
-`759413052c854ca75f3bfeec579e3cea00f283646b0ea0d30b6b15e4d13f814b`
+`04e595f50a62f9bc14d8b40f78eff374a6686238f3e093380b5a41d468df6df9`
 
 **NOTE:**
 
