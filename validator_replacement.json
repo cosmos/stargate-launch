@@ -333,5 +333,52 @@
     "validator_name": "chainflow-cosmos-prodval-01",
     "validator_address": "cosmosvaloper1j0vaeh27t4rll7zhmarwcuq8xtrmvqhudrgcky",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqte39vggwm75vx65grlv0w7k92eeysv35s20cfcepv5hmx5p58tusjwym4k"
+  },
+  {
+    "validator_name": "Iqlusion-Binance Replacement",
+    "validator_address": "cosmosvaloper156gqf9837u7d4c4678yt3rl4ls9c5vuursrrzf",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq2dxp8afeeqj7wrcufhyaaqxpuqawalvhm0esju5yxwactj8f5jgs7pf5me"
+  }
+  ,
+  {
+    "validator_name": "Iqlusion-Kraken Replacement",
+    "validator_address": "cosmosvaloper156gqf9837u7d4c4678yt3rl4ls9c5vuursrrzf",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqat3p62jhqcply8ewmytamqqlhu786mg49vn8m87qrpc22h3yunrqtx28m2"
+  }
+  ,
+  {
+    "validator_name": "Iqlusion-Zero Knowledge Replacement",
+    "validator_address": "cosmosvaloper1v5y0tg0jllvxf5c3afml8s3awue0ymju89frut",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxwgvllret5heclev4c04mmxa272vxa4vee5ptjx77faw8lpn0mmqcfa9ak"
+  }
+  ,
+  {
+    "validator_name": "Iqlusion-Chorus One Replacement",
+    "validator_address": "cosmosvaloper15urq2dtp9qce4fyc85m6upwm9xul3049e02707",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqreexjmdh4lqk6sxaexvxe5y2xvgyklch3xtfkjlwydn7xsltzlksxq2w2c"
+  }
+  ,
+  {
+    "validator_name": "Iqlusion-BlockPower Replacement",
+    "validator_address": "cosmosvaloper1rpgtz9pskr5geavkjz02caqmeep7cwwpv73axj",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqm27ul4l8v7dp2nvd69t6aycyelg03ps5jekn9nkqfrr8rx22ykmq0yj0xk"
+  }
+  ,
+  {
+    "validator_name": "Iqlusion-hashtower Replacement",
+    "validator_address": "cosmosvaloper1ma02nlc7lchu7caufyrrqt4r6v2mpsj90y9wzd",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqf7r6l2et8auspzslwmmhmtflpgea7hx68slz9qenlvvcqgt4dngqsjljtt"
+  }
+,
+  {
+    "validator_name": "Iqlusion-Houbi Replacement",
+    "validator_address": "cosmosvaloper12w6tynmjzq4l8zdla3v4x0jt8lt4rcz5gk7zg2",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq6mzrl98emg03hsd48p9n4d2aa57seu82umcu674yg2cwtwqjjy7sfluw76"
+  }
+  ,
+  {
+    "validator_name": "Iqlusion-BouBouNode Replacement",
+    "validator_address": "cosmosvaloper1eh5mwu044gd5ntkkc2xgfg8247mgc56fz4sdg3",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqvpfpmattev2j57fpy56u34w7cjqqersueqrs6p4jfkm072dup5dsaqk02p"
   }
 ]
