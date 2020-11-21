@@ -127,10 +127,10 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq7dj6qx6rwajkd6gfj4lgsu4kcrnvrmcxhxn8el9au0kezkkx88dsp28une"
   },
   {
-    "validator_name":"Forbole",
-    "validator_address":"cosmosvaloper14kn0kk33szpwus9nh8n87fjel8djx0y070ymmj",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqgtdccmpdht8s4stcym3nm6yeswxfajg5pk6469kyfy5q6jdpyxfq5lqym0"
-},
+    "validator_name": "Forbole",
+    "validator_address": "cosmosvaloper14kn0kk33szpwus9nh8n87fjel8djx0y070ymmj",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqgtdccmpdht8s4stcym3nm6yeswxfajg5pk6469kyfy5q6jdpyxfq5lqym0"
+  },
   {
     "validator_name": "Genesis Lab",
     "validator_address": "cosmosvaloper1wdrypwex63geqswmcy5qynv4w3z3dyef2qmyna",
@@ -182,11 +182,10 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqd85nu5nelvcyyzcsrr0yaglh8rfvn6cv9pp3p0hgmwtk8hf3cazqc7vz5c"
   },
   {
-    "validator_name":"melea",
-    "validator_address":"cosmosvaloper1zqgheeawp7cmqk27dgyctd80rd8ryhqs6la9wc",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepq8lvj0ezesq704yjrz5m6qvg0f4xfgwur2tdx8y7zmmk6khv6pyjsz9txcl"
-    }
-,
+    "validator_name": "melea",
+    "validator_address": "cosmosvaloper1zqgheeawp7cmqk27dgyctd80rd8ryhqs6la9wc",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq8lvj0ezesq704yjrz5m6qvg0f4xfgwur2tdx8y7zmmk6khv6pyjsz9txcl"
+  },
   {
     "validator_name": "MultiChain Ventures",
     "validator_address": "cosmosvaloper1vf44d85es37hwl9f4h9gv0e064m0lla60j9luj",
@@ -198,28 +197,25 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqhsm2u5ptvy5rm5d2dzgus283p9huwxjl8e0mm4x0x4lmh6jwfw6sdcfdxj"
   },
   {
-    "validator_name":"P2P.ORG",
-    "validator_address":"cosmosvaloper132juzk0gdmwuxvx4phug7m3ymyatxlh9734g4w",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepq8qrnv9ewmps46gyjqyzajmtay7hrj5dz7fsxh4qc7p3xnwumvrls38dv5r"
-}
-,
-{
-  "validator_name": "Ping Pub",
-  "validator_address": "cosmosvalcons1snyghje67p8gvhug90c298syac7rtmv0fegvyl",
-  "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqvwa5jswyy32vm26agf42jtfsazxssxem8jkntucwkq9p6lj2szzsklqn0f"
-},
-{
-  "validator_name": "replicator.network",
-  "validator_address": "cosmosvaloper1et77usu8q2hargvyusl4qzryev8x8t9wwqkxfs",
-  "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqehfdumq50qgtuqd3xqf0pz37g0vzkflnnpe62e7w02ylvvuwnvgqskhmz7"
-}
-,
-{
-  "validator_name": "Sentinel",
-  "validator_address": "cosmosvaloper1u6ddcsjueax884l3tfrs66497c7g86skn7pa0u",
-  "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq09kyxsdw0p3ammk3hglv2kjteyxecla4a84mv3tw5f3haj8kpvnslxp0mc"
-}
-,
+    "validator_name": "P2P.ORG",
+    "validator_address": "cosmosvaloper132juzk0gdmwuxvx4phug7m3ymyatxlh9734g4w",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq8qrnv9ewmps46gyjqyzajmtay7hrj5dz7fsxh4qc7p3xnwumvrls38dv5r"
+  },
+  {
+    "validator_name": "Ping Pub",
+    "validator_address": "cosmosvalcons1snyghje67p8gvhug90c298syac7rtmv0fegvyl",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqvwa5jswyy32vm26agf42jtfsazxssxem8jkntucwkq9p6lj2szzsklqn0f"
+  },
+  {
+    "validator_name": "replicator.network",
+    "validator_address": "cosmosvaloper1et77usu8q2hargvyusl4qzryev8x8t9wwqkxfs",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqehfdumq50qgtuqd3xqf0pz37g0vzkflnnpe62e7w02ylvvuwnvgqskhmz7"
+  },
+  {
+    "validator_name": "Sentinel",
+    "validator_address": "cosmosvaloper1u6ddcsjueax884l3tfrs66497c7g86skn7pa0u",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq09kyxsdw0p3ammk3hglv2kjteyxecla4a84mv3tw5f3haj8kpvnslxp0mc"
+  },
   {
     "validator_name": "SG-1",
     "validator_address": "cosmosvaloper1zsq22eqgrswuhmcul2fun7ntgrzjgph3kqf3a3",
@@ -241,51 +237,45 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqyngml5ydtd2d3u62sknrwfx7xk3c3z4tl784ekeneax8hpg69uvs84rvu7"
   },
   {
-    "validator_name":"Skystar Capital",
-    "validator_address":"cosmosvaloper1uhnsxv6m83jj3328mhrql7yax3nge5svrv6t6c",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqzt04jd95e5dtmd0f6gc3xc8l8au8ps22cc5wnxm5chcqnyn8qs3s068afw"
-}
-,
-{
-  "validator_name":"Stake Capital",
-  "validator_address":"cosmosvaloper1k9a0cs97vul8w2vwknlfmpez6prv8klv03lv3d",
-  "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqfgpyq4xk4s96ksmkfrr7juea9kmdxkl5ht94xgpxe240743u9cvsht489p"
-  }
-,
-{
-  "validator_name":"🐠stake.fish",
-  "validator_address":"cosmosvaloper1sjllsnramtg3ewxqwwrwjxfgc4n4ef9u2lcnj0",
-  "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqezmxjhv4yzemce7qul2aqzmm6gd6f6r6ruxc7kxk6tcr6w6zud3qfuhm2r"
-}
-,
-{
-  "validator_name":"stake.systems",
-  "validator_address":"cosmosvaloper1ualhu3fjgg77g485gmyswkq3w0dp7gys6qzwrv",
-  "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqn0ekk3nslmz6h5trqq6twrf0e8n3sfxk2kmgkp474yakwf5lr7rq6eqatw"
-}
-,
+    "validator_name": "Skystar Capital",
+    "validator_address": "cosmosvaloper1uhnsxv6m83jj3328mhrql7yax3nge5svrv6t6c",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqzt04jd95e5dtmd0f6gc3xc8l8au8ps22cc5wnxm5chcqnyn8qs3s068afw"
+  },
+  {
+    "validator_name": "Stake Capital",
+    "validator_address": "cosmosvaloper1k9a0cs97vul8w2vwknlfmpez6prv8klv03lv3d",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqfgpyq4xk4s96ksmkfrr7juea9kmdxkl5ht94xgpxe240743u9cvsht489p"
+  },
+  {
+    "validator_name": "🐠stake.fish",
+    "validator_address": "cosmosvaloper1sjllsnramtg3ewxqwwrwjxfgc4n4ef9u2lcnj0",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqezmxjhv4yzemce7qul2aqzmm6gd6f6r6ruxc7kxk6tcr6w6zud3qfuhm2r"
+  },
+  {
+    "validator_name": "stake.systems",
+    "validator_address": "cosmosvaloper1ualhu3fjgg77g485gmyswkq3w0dp7gys6qzwrv",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqn0ekk3nslmz6h5trqq6twrf0e8n3sfxk2kmgkp474yakwf5lr7rq6eqatw"
+  },
   {
     "validator_name": "StakeWithUs",
     "validator_address": "cosmosvaloper1jlr62guqwrwkdt4m3y00zh2rrsamhjf9num5xr",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqdlgkgec9wl5numexjgmkjd9ulytntwnrjp5phl2xy2c95f0r9hgqlsf8g9"
   },
   {
-    "validator_name":"stakezone",
-    "validator_address":"cosmosvaloper1g2lpsy85795r2fgtrkgzk25m5wkrtl2xu2t3ya",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepq5rtnxycmx2ynyj6wy6frr7c4xz4pzjn6f7wyr6ytk9ngh56lqs6qth238x"
-    }
-,
+    "validator_name": "stakezone",
+    "validator_address": "cosmosvaloper1g2lpsy85795r2fgtrkgzk25m5wkrtl2xu2t3ya",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq5rtnxycmx2ynyj6wy6frr7c4xz4pzjn6f7wyr6ytk9ngh56lqs6qth238x"
+  },
   {
     "validator_name": "stakezone",
     "validator_address": "cosmosvaloper1g2lpsy85795r2fgtrkgzk25m5wkrtl2xu2t3ya",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq5rtnxycmx2ynyj6wy6frr7c4xz4pzjn6f7wyr6ytk9ngh56lqs6qth238x"
   },
   {
-    "validator_name":"Stakin",
-    "validator_address":"cosmosvaloper1fhr7e04ct0zslmkzqt9smakg3sxrdve6ulclj2",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepq2vrwk0dhn0kh443jxlgscd7luknvl56h3dr0pyfglxwdnhquae9srek6ew"
-}
-,
+    "validator_name": "Stakin",
+    "validator_address": "cosmosvaloper1fhr7e04ct0zslmkzqt9smakg3sxrdve6ulclj2",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq2vrwk0dhn0kh443jxlgscd7luknvl56h3dr0pyfglxwdnhquae9srek6ew"
+  },
   {
     "validator_name": "Staking Fund",
     "validator_address": "cosmosvaloper1000ya26q2cmh399q4c5aaacd9lmmdqp90kw2jn",
@@ -307,23 +297,20 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqfgpyq4xk4s96ksmkfrr7juea9kmdxkl5ht94xgpxe240743u9cvsht489p"
   },
   {
-    "validator_name":"Staking Facilities",
-    "validator_address":"cosmosvaloper1x88j7vp2xnw3zec8ur3g4waxycyz7m0mahdv3p",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqhm6gjjkwecqyfrgey96s5up7drnspnl4t3rdr79grklkg9ff6zaqnfl2dg"
-    }
-,
-{
-  "validator_name":"TomShi",
-  "validator_address":"cosmosvaloper10sr2e9tcw5fl4tknht7j8hzw57k5s3f4zzpv88",
-  "stargate_consensus_public_key":"cosmosvalconspub1zcjduepq4rqxjd5fjqps9mgs3snjdmpdllsew62f2yqpt83dnw0fn4cuddrsrc6m4g"
-  }
-,  
-{
-  "validator_name":"WeStaking",
-  "validator_address":"cosmosvaloper1ptyzewnns2kn37ewtmv6ppsvhdnmeapvtfc9y5",
-  "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqtcsm8lp7n6ph98vd59qa9esgyuysuntww9juz5wynxrhzpspmuuq6g5pzg"
-}
-  ,
+    "validator_name": "Staking Facilities",
+    "validator_address": "cosmosvaloper1x88j7vp2xnw3zec8ur3g4waxycyz7m0mahdv3p",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqhm6gjjkwecqyfrgey96s5up7drnspnl4t3rdr79grklkg9ff6zaqnfl2dg"
+  },
+  {
+    "validator_name": "TomShi",
+    "validator_address": "cosmosvaloper10sr2e9tcw5fl4tknht7j8hzw57k5s3f4zzpv88",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq4rqxjd5fjqps9mgs3snjdmpdllsew62f2yqpt83dnw0fn4cuddrsrc6m4g"
+  },
+  {
+    "validator_name": "WeStaking",
+    "validator_address": "cosmosvaloper1ptyzewnns2kn37ewtmv6ppsvhdnmeapvtfc9y5",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqtcsm8lp7n6ph98vd59qa9esgyuysuntww9juz5wynxrhzpspmuuq6g5pzg"
+  },
   {
     "validator_name": "Tessellated Geometry",
     "validator_address": "cosmosvaloper1fun809ksxh87nzf88yashp9ynjz6xkscrtvzvw",
@@ -338,44 +325,37 @@
     "validator_name": "Iqlusion-Binance Replacement",
     "validator_address": "cosmosvaloper156gqf9837u7d4c4678yt3rl4ls9c5vuursrrzf",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq2dxp8afeeqj7wrcufhyaaqxpuqawalvhm0esju5yxwactj8f5jgs7pf5me"
-  }
-  ,
+  },
   {
     "validator_name": "Iqlusion-Kraken Replacement",
     "validator_address": "cosmosvaloper156gqf9837u7d4c4678yt3rl4ls9c5vuursrrzf",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqat3p62jhqcply8ewmytamqqlhu786mg49vn8m87qrpc22h3yunrqtx28m2"
-  }
-  ,
+  },
   {
     "validator_name": "Iqlusion-Zero Knowledge Replacement",
     "validator_address": "cosmosvaloper1v5y0tg0jllvxf5c3afml8s3awue0ymju89frut",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxwgvllret5heclev4c04mmxa272vxa4vee5ptjx77faw8lpn0mmqcfa9ak"
-  }
-  ,
+  },
   {
     "validator_name": "Iqlusion-Chorus One Replacement",
     "validator_address": "cosmosvaloper15urq2dtp9qce4fyc85m6upwm9xul3049e02707",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqreexjmdh4lqk6sxaexvxe5y2xvgyklch3xtfkjlwydn7xsltzlksxq2w2c"
-  }
-  ,
+  },
   {
     "validator_name": "Iqlusion-BlockPower Replacement",
     "validator_address": "cosmosvaloper1rpgtz9pskr5geavkjz02caqmeep7cwwpv73axj",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqm27ul4l8v7dp2nvd69t6aycyelg03ps5jekn9nkqfrr8rx22ykmq0yj0xk"
-  }
-  ,
+  },
   {
     "validator_name": "Iqlusion-hashtower Replacement",
     "validator_address": "cosmosvaloper1ma02nlc7lchu7caufyrrqt4r6v2mpsj90y9wzd",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqf7r6l2et8auspzslwmmhmtflpgea7hx68slz9qenlvvcqgt4dngqsjljtt"
-  }
-,
+  },
   {
     "validator_name": "Iqlusion-Houbi Replacement",
     "validator_address": "cosmosvaloper12w6tynmjzq4l8zdla3v4x0jt8lt4rcz5gk7zg2",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq6mzrl98emg03hsd48p9n4d2aa57seu82umcu674yg2cwtwqjjy7sfluw76"
-  }
-  ,
+  },
   {
     "validator_name": "Iqlusion-BouBouNode Replacement",
     "validator_address": "cosmosvaloper1eh5mwu044gd5ntkkc2xgfg8247mgc56fz4sdg3",
