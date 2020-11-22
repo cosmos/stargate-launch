@@ -30,11 +30,10 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq6cp6vs95f0xwfle30wj07n0qexq7f5a0zgvz60mnjz03kl0evfwqgrne5q"
   },
   {
-    "validator_name":"Bi23 Labs",
-    "validator_address":"cosmosvaloper1hvsdf03tl6w5pnfvfv5g8uphjd4wfw2h4gvnl7",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqxpdkmv2vka547zq99grw0memcg5a6jyzmf5sdhkvk57kqqa2yy7s8vcr4p"
-}
-,
+    "validator_name": "Bi23 Labs",
+    "validator_address": "cosmosvaloper1hvsdf03tl6w5pnfvfv5g8uphjd4wfw2h4gvnl7",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxpdkmv2vka547zq99grw0memcg5a6jyzmf5sdhkvk57kqqa2yy7s8vcr4p"
+  },
   {
     "validator_name": "CCN",
     "validator_address": "cosmosvaloper1qaa9zej9a0ge3ugpx3pxyx602lxh3ztqgfnp42",
@@ -290,6 +289,11 @@
     "validator_name": "Staking Facilities",
     "validator_address": "cosmosvaloper1x88j7vp2xnw3zec8ur3g4waxycyz7m0mahdv3p",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqhm6gjjkwecqyfrgey96s5up7drnspnl4t3rdr79grklkg9ff6zaqnfl2dg"
+  },
+  {
+    "validator_name": "syncnode",
+    "validator_address": "cosmosvaloper19j2hd230c3hw6ds843yu8akc0xgvdvyuz9v02v",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqwhtsh6jmaf0yykyvkyzlp22xvdm2htj9j623ktes35vpw8f3hfds83kwpn"
   },
   {
     "validator_name": "TomShi",
