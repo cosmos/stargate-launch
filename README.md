@@ -65,7 +65,7 @@ To simplify testing, we manually adjusted some governance parameters.
 ```json
 {
   "tally_params": {
-    "quorum": "0.050000000000000000",
+    "quorum": "0.010000000000000000",
     "threshold": "0.500000000000000000",
     "veto_threshold": "0.334000000000000000"
   },
@@ -80,7 +80,7 @@ Outcome: The output should match the genesis file at https://storage.googleapis.
 
 shas256sum genesis.json
 
-`1451ceb930fc41c563ead252f314b145f51fb30812aea0ebdc3f7a5df52e4b0a`
+`08253c8ea35c2715f49b257151882ded9581293f8bc3dc8099f7a2ac46d3c8b3`
 
 **NOTE:**
 
