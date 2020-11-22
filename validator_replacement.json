@@ -26,9 +26,15 @@
   },
   {
     "validator_name": "blockscape",
-    "validator_address": "cosmosvaloper19v9ej55ataqrfl39v83pf4e0dm69u89rngf928",
+    "validator_address": "cosmosvaloper13x77yexvf6qexfjg9czp6jhpv7vpjdwwkyhe4p",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq6cp6vs95f0xwfle30wj07n0qexq7f5a0zgvz60mnjz03kl0evfwqgrne5q"
   },
+  {
+    "validator_name":"Bi23 Labs",
+    "validator_address":"cosmosvaloper1hvsdf03tl6w5pnfvfv5g8uphjd4wfw2h4gvnl7",
+    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqxpdkmv2vka547zq99grw0memcg5a6jyzmf5sdhkvk57kqqa2yy7s8vcr4p"
+}
+,
   {
     "validator_name": "CCN",
     "validator_address": "cosmosvaloper1qaa9zej9a0ge3ugpx3pxyx602lxh3ztqgfnp42",
@@ -184,6 +190,11 @@
     "validator_name": "melea",
     "validator_address": "cosmosvaloper1zqgheeawp7cmqk27dgyctd80rd8ryhqs6la9wc",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq8lvj0ezesq704yjrz5m6qvg0f4xfgwur2tdx8y7zmmk6khv6pyjsz9txcl"
+  },
+  {
+    "validator_name": "melange",
+    "validator_address": "cosmosvaloper1cz6q5nys0tgupq2mt99amsltepglxqgwfs6fum",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqvsla2hfkxr39fv2kscvtgeeu7qm2jw2kuxg64juwrpmymud0mcasnzpjjc"
   },
   {
     "validator_name": "MultiChain Ventures",
