@@ -67,8 +67,8 @@
   },
   {
     "validator_name": "Coinbase Custody",
-    "validator_address": "cosmosvaloper13t78dc7a0ec5ryzgs47nljz5nflx9uzc3fymv5",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqpx9vazxdc76jam4l2p6nszfynkvu2cfyd9qcfxpq3uqtfsed0t7s4m4wuc"
+    "validator_address": "cosmosvaloper1a3yjj7d3qnx4spgvjcwjq9cw9snrrrhu5h6jll",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxkmktpxalx2gwn7zkw4t3dtax5up3mfv4yhgmr876wyhkfq8fndq4vdh6d"
   },
   {
     "validator_name": "Compass",
