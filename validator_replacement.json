@@ -66,11 +66,6 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqehuq39q3pkvalrjqmq8uf2f0dfs07uezs78wdwmzlwhkqn09gzwq0gdsal"
   },
   {
-    "validator_name": "Coinbase Custody",
-    "validator_address": "cosmosvaloper1a3yjj7d3qnx4spgvjcwjq9cw9snrrrhu5h6jll",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxkmktpxalx2gwn7zkw4t3dtax5up3mfv4yhgmr876wyhkfq8fndq4vdh6d"
-  },
-  {
     "validator_name": "Compass",
     "validator_address": "cosmosvaloper1ff0dw8kawsnxkrgj7p65kvw7jxxakyf8n583gx",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqu08f7tuce8k88tgewhwer69kfvk5az3cn5lz3v8phl8gvu9nxu8qhrjxfj"
@@ -364,5 +359,10 @@
     "validator_name": "Iqlusion-BouBouNode Replacement",
     "validator_address": "cosmosvaloper1eh5mwu044gd5ntkkc2xgfg8247mgc56fz4sdg3",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqvpfpmattev2j57fpy56u34w7cjqqersueqrs6p4jfkm072dup5dsaqk02p"
+  },
+  {
+    "validator_name": "Iqlusion-Coinbase",
+    "validator_address": "cosmosvaloper1a3yjj7d3qnx4spgvjcwjq9cw9snrrrhu5h6jll",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxkmktpxalx2gwn7zkw4t3dtax5up3mfv4yhgmr876wyhkfq8fndq4vdh6d"
   }
 ]
