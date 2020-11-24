@@ -56,6 +56,17 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxle856ffpp8jt9j4wgnv20prpvf60uktsrq2fmz73xkujhvwtylqv8fnfu"
   },
   {
+    "validator_name": "chainflow-cosmos-prodval-01",
+    "validator_address": "cosmosvaloper1j0vaeh27t4rll7zhmarwcuq8xtrmvqhudrgcky",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqte39vggwm75vx65grlv0w7k92eeysv35s20cfcepv5hmx5p58tusjwym4k"
+  },
+  {
+    "validator_name": "Chorus One",
+    "validator_address": "cosmosvaloper15urq2dtp9qce4fyc85m6upwm9xul3049e02707",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqauemxajnn7vemct6p3705acwfcvr9z4saw73ek6f8kapp7z5gjeqzhvhv4"
+  },
+
+  {
     "validator_name": "Citadel.one",
     "validator_address": "cosmosvaloper1lzhlnpahvznwfv4jmay2tgaha5kmz5qxerarrl",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepquuaszms40adxzwkjr5ew4gj8s49dyjx5zsncar4cqfk4wh07eh8sjxjeaf"
@@ -181,9 +192,14 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqzcdfkcypa7n4zcnng2e6ulr8y3rwa9pyj9zyfdah3ysm0euszszs4y7zwg"
   },
   {
-    "validator_name":"lunamint",
-    "validator_address":"cosmosvaloper1ec3p6a75mqwkv33zt543n6cnxqwun37rr5xlqv",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqzcdfkcypa7n4zcnng2e6ulr8y3rwa9pyj9zyfdah3ysm0euszszs4y7zwg"
+    "validator_name": "KysenPool Sky",
+    "validator_address": "cosmosvaloper146kwpzhmleafmhtaxulfptyhnvwxzlvm87hwnm",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqsxcxw7nrmkweuav4k5z2gjvf205cvymaljum6kv0sj7srn8wlveq7r5rvx"
+  },
+  {
+    "validator_name": "lunamint",
+    "validator_address": "cosmosvaloper1ec3p6a75mqwkv33zt543n6cnxqwun37rr5xlqv",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqzcdfkcypa7n4zcnng2e6ulr8y3rwa9pyj9zyfdah3ysm0euszszs4y7zwg"
   },
   {
     "validator_name": "melea",
@@ -199,11 +215,6 @@
     "validator_name": "MultiChain Ventures",
     "validator_address": "cosmosvaloper1vf44d85es37hwl9f4h9gv0e064m0lla60j9luj",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqtj2urav4g9wex3hku588au0x4sucrc9lpky46zp5u8w4mvd584sqmcxxhs"
-  },
-  {
-    "validator_name": "Polychain Labs",
-    "validator_address": "cosmosvaloper14k4pzckkre6uxxyd2lnhnpp8sngys9m6hl6ml7",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqhsm2u5ptvy5rm5d2dzgus283p9huwxjl8e0mm4x0x4lmh6jwfw6sdcfdxj"
   },
   {
     "validator_name": "P2P.ORG",
@@ -311,19 +322,14 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq8axexx8w5wf64wufk20q083ycqgfdy50j03xg78ldzv6cu0n0xgq59sqhr"
   },
   {
-    "validator_name": "chainflow-cosmos-prodval-01",
-    "validator_address": "cosmosvaloper1j0vaeh27t4rll7zhmarwcuq8xtrmvqhudrgcky",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqte39vggwm75vx65grlv0w7k92eeysv35s20cfcepv5hmx5p58tusjwym4k"
-  },
-  {
     "validator_name": "Ztake.org",
     "validator_address": "cosmosvaloper102ruvpv2srmunfffxavttxnhezln6fnc54at8c",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq33h3ldxapw2rte5zsryatsr92jnmjpfhz54478dxhxkqj6pj9hasqvs6xr"
   },
   {
-    "validator_name": "Iqlusion-Binance Replacement",
+    "validator_name": "Iqlusion/Dokia-Binance Replacement",
     "validator_address": "cosmosvaloper156gqf9837u7d4c4678yt3rl4ls9c5vuursrrzf",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq2dxp8afeeqj7wrcufhyaaqxpuqawalvhm0esju5yxwactj8f5jgs7pf5me"
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq4xreqv0nttcx5p75drnwsplry9p65g58lfcvwfg8vp8mhp7y3gtslmx3kj"
   },
   {
     "validator_name": "Iqlusion-Kraken Replacement",
@@ -334,11 +340,6 @@
     "validator_name": "Iqlusion-Zero Knowledge Replacement",
     "validator_address": "cosmosvaloper1v5y0tg0jllvxf5c3afml8s3awue0ymju89frut",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxwgvllret5heclev4c04mmxa272vxa4vee5ptjx77faw8lpn0mmqcfa9ak"
-  },
-  {
-    "validator_name": "Iqlusion-Chorus One Replacement",
-    "validator_address": "cosmosvaloper15urq2dtp9qce4fyc85m6upwm9xul3049e02707",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqreexjmdh4lqk6sxaexvxe5y2xvgyklch3xtfkjlwydn7xsltzlksxq2w2c"
   },
   {
     "validator_name": "Iqlusion-BlockPower Replacement",
@@ -364,5 +365,10 @@
     "validator_name": "Iqlusion-Coinbase",
     "validator_address": "cosmosvaloper1a3yjj7d3qnx4spgvjcwjq9cw9snrrrhu5h6jll",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxkmktpxalx2gwn7zkw4t3dtax5up3mfv4yhgmr876wyhkfq8fndq4vdh6d"
+  },
+  {
+    "validator_name": "Iqlusio/Dokia-Polychain Labs",
+    "validator_address": "cosmosvaloper14k4pzckkre6uxxyd2lnhnpp8sngys9m6hl6ml7",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq72wtvxz8pn7n7qkt3up0y4t0dqmjakgvhznc4n7l6gfqxpu08kxq79kpkk"
   }
 ]
