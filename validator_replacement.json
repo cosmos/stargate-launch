@@ -317,6 +317,11 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq4rqxjd5fjqps9mgs3snjdmpdllsew62f2yqpt83dnw0fn4cuddrsrc6m4g"
   },
   {
+    "validator_name": "X-Stake",
+    "validator_address": "cosmosvalcons1qzkmn04l39v2t7q32sycm950zj0kj9jtj46vqf",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqy567dh9a7ak0tcl8n8u9lwh0xpp8vl7wlv9gjlf5d6uj7prvnjfsyaur90"
+  },
+  {
     "validator_name": "WeStaking",
     "validator_address": "cosmosvaloper1ptyzewnns2kn37ewtmv6ppsvhdnmeapvtfc9y5",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqtcsm8lp7n6ph98vd59qa9esgyuysuntww9juz5wynxrhzpspmuuq6g5pzg"
@@ -382,8 +387,8 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepquunyzaqq79rx5gd743mrna2aa3han685xjzj970xpt764jgx2hpqmmruvk"
   },
   {
-    "validator_name":"Iqlusion -MultiChain Ventures Replacement",
-    "validator_address":"cosmosvaloper1vf44d85es37hwl9f4h9gv0e064m0lla60j9luj",
-    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqaw46pnhjcv95mslvzxv5tze36ycutnx7szwln9p38ufrkffqltms8pntmu"
-}
+    "validator_name": "Iqlusion -MultiChain Ventures Replacement",
+    "validator_address": "cosmosvaloper1vf44d85es37hwl9f4h9gv0e064m0lla60j9luj",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqaw46pnhjcv95mslvzxv5tze36ycutnx7szwln9p38ufrkffqltms8pntmu"
+  }
 ]
