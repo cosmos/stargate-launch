@@ -20,6 +20,11 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq7jsrkl9fgqk0wj3ahmfr8pgxj6vakj2wzn656s8pehh0zhv2w5as5gd80a"
   },
   {
+    "validator_name": "AUDIT.one",
+    "validator_address": "cosmosvaloper1udpsgkgyutgsglauk9vk9rs03a3skc62gup9ny",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqwc0psjv0ta2trx3nf6zgwrhkwquws0026xv94aj7as6we9xm47yqzl7v04"
+  },
+  {
     "validator_name": "Bison Trails",
     "validator_address": "cosmosvaloper1crqm3598z6qmyn2kkcl9dz7uqs4qdqnr6s8jdn",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqtqyz8x2nf5rpq4cq2g6y4rcflcxk5d4kjy5ugsqmpelaxd3kngdsmqhz9k"
@@ -212,11 +217,6 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqvsla2hfkxr39fv2kscvtgeeu7qm2jw2kuxg64juwrpmymud0mcasnzpjjc"
   },
   {
-    "validator_name": "MultiChain Ventures",
-    "validator_address": "cosmosvaloper1vf44d85es37hwl9f4h9gv0e064m0lla60j9luj",
-    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqtj2urav4g9wex3hku588au0x4sucrc9lpky46zp5u8w4mvd584sqmcxxhs"
-  },
-  {
     "validator_name": "P2P.ORG",
     "validator_address": "cosmosvaloper132juzk0gdmwuxvx4phug7m3ymyatxlh9734g4w",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq8qrnv9ewmps46gyjqyzajmtay7hrj5dz7fsxh4qc7p3xnwumvrls38dv5r"
@@ -367,8 +367,18 @@
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqxkmktpxalx2gwn7zkw4t3dtax5up3mfv4yhgmr876wyhkfq8fndq4vdh6d"
   },
   {
-    "validator_name": "Iqlusio/Dokia-Polychain Labs",
+    "validator_name": "Iqlusion/Dokia-Polychain Labs Replacement",
     "validator_address": "cosmosvaloper14k4pzckkre6uxxyd2lnhnpp8sngys9m6hl6ml7",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepq72wtvxz8pn7n7qkt3up0y4t0dqmjakgvhznc4n7l6gfqxpu08kxq79kpkk"
-  }
+  },
+  {
+    "validator_name": "Iqlusion/Dokia-Sparkpool-Replacement",
+    "validator_address": "cosmosvaloper1rwh0cxa72d3yle3r4l8gd7vyphrmjy2kpe4x72",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepquunyzaqq79rx5gd743mrna2aa3han685xjzj970xpt764jgx2hpqmmruvk"
+  },
+  {
+    "validator_name":"Iqlusion -MultiChain Ventures Replacement",
+    "validator_address":"cosmosvaloper1vf44d85es37hwl9f4h9gv0e064m0lla60j9luj",
+    "stargate_consensus_public_key":"cosmosvalconspub1zcjduepqaw46pnhjcv95mslvzxv5tze36ycutnx7szwln9p38ufrkffqltms8pntmu"
+}
 ]
