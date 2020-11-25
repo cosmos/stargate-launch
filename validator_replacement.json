@@ -41,7 +41,7 @@
   },
   {
     "validator_name": "B-Harvest",
-    "validator_address": "cosmosvaloper1xn9tvl5ezen3qvkz0cmdc3flh5962wasz6h5qm",
+    "validator_address": "cosmosvaloper10e4vsut6suau8tk9m6dnrm0slgd6npe3jx5xpv",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqzsr79csnz2cltwue35gnr683psg6utmd6464jzhfxrefu5rkcldq8ckjl0"
   },
   {
@@ -215,6 +215,11 @@
     "validator_name": "melange",
     "validator_address": "cosmosvaloper1cz6q5nys0tgupq2mt99amsltepglxqgwfs6fum",
     "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqvsla2hfkxr39fv2kscvtgeeu7qm2jw2kuxg64juwrpmymud0mcasnzpjjc"
+  },
+  {
+    "validator_name": "nylira.net",
+    "validator_address": "cosmosvaloper13sduv92y3xdhy3rpmhakrc3v7t37e7ps9l0kpv",
+    "stargate_consensus_public_key": "cosmosvalconspub1zcjduepqv43m43y8k4vl677kcrln50hxc099rt5vwdnqsk6qz95a94t0xnlsn3d5ue"
   },
   {
     "validator_name": "P2P.ORG",
