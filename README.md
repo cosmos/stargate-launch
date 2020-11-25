@@ -55,7 +55,7 @@ gaiad export > 3924406.cosmos_hub_3.json
 Step 5: Using the crowdsourced public keys from the Stargate repo:
 
 ```bash
-build/gaiad migrate ~/3924406.cosmoshub-3.json --chain-id=cosmoshub-test-stargate-c --initial-height 3924407 --replacement-cons-keys ~/stargate/validator_replacement.json > migrated_genesis.json
+build/gaiad migrate ~/3924406.cosmoshub-3.json --chain-id=cosmoshub-test-stargate-d --initial-height 3924407 --replacement-cons-keys ~/stargate/validator_replacement.json > migrated_genesis.json
 
 jq . migrated_genesis.json > genesis.json
 ```
@@ -80,7 +80,7 @@ Outcome: The output should match the genesis file at https://storage.googleapis.
 
 shas256sum genesis.json
 
-`08253c8ea35c2715f49b257151882ded9581293f8bc3dc8099f7a2ac46d3c8b3`
+`b1ea6d4337d35adb43a14db2c302824e94b50071431750e10f4c00856f9c56e5`
 
 **NOTE:**
 
