@@ -38,7 +38,7 @@ cd ~/
 git clone https://github.com/cosmos/gaia
 git clone https://github.com/cosmosdevs/stargate
 cd gaia
-git checkout cosmoshub-test-stargate
+git checkout cosmoshub-test-stargate-e
 make build
 ```
 
@@ -80,7 +80,7 @@ Outcome: The output should match the genesis file at https://storage.googleapis.
 
 shas256sum genesis.json
 
-`b1ea6d4337d35adb43a14db2c302824e94b50071431750e10f4c00856f9c56e5`
+`4b552ed850946ab43a7025ca6925ddb1a86fc9c78ed50a6762bbb1bd0a5797b0`
 
 **NOTE:**
 
