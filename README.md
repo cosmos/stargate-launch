@@ -92,6 +92,36 @@ shas256sum genesis.json
 
 `c5e186e29d322788b8154723d04e1de018d38475@162.222.177.241:26656`
 
+
+### Stargate-6 Testing
+
+- Testing wallets, exchanges and block explorers against the legacy Amino REST interface
+- Giving node operators and validators an opportunity to test their integrations against a work in progress version
+- Playing with new Stargate features including IBC is possible now with the Akash realyer! Try it out at https://github.com/cosmos/relayer/pull/334
+
+Our validator node for a persistent peer is available at
+
+```bash
+b92015f162d897f5e1ac689f6b15bc591e6b3965@35.225.42.47:26656
+```
+
+For users who want to test state sync, our validator node has tendermint rpc open on `35.225.42.47:26657`and we are snapshotting every 1000 blocks.
+
+As of 12/16/2020, the tagged `gaia` version is [stargate-6](https://github.com/cosmos/gaia/tree/stargate-6)
+
+Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
+
+```bash
+git clone https://github.com/cosmos/gaia
+git checkout stargate-6
+make build
+```
+
+
+
+
+
+
 ### Stargate-5 Testing
 
 - Testing wallets, exchanges and block explorers against the legacy Amino REST interface
