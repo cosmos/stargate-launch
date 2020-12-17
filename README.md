@@ -98,6 +98,7 @@ shas256sum genesis.json
 - Testing wallets, exchanges and block explorers against the legacy Amino REST interface
 - Giving node operators and validators an opportunity to test their integrations against a work in progress version
 - Playing with new Stargate features including IBC is possible now with the Akash realyer! Try it out at https://github.com/cosmos/relayer/pull/334
+- [Genesis file](genesis-stargate-6.json)
 
 Our validator node for a persistent peer is available at
 
