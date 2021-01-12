@@ -10,6 +10,8 @@ The ability to filter and handle customer support for token balances other than 
 
 If your integrations are only supporting the legacy amino interface, IBC transfer transactions will not deserialize and you will need to be able to query the grpc or grpc json interfaces.
 
+-[GPRC interaction docs](https://github.com/cosmos/cosmos-sdk/blob/master/docs/run-node/interact-node.md)
+
 **IBC Skill Level 1**
 
 Would support a select list of tokens and channels. The expectation is that only select and trusted channels and their tokens would be supported by the exchange. This is somewhat analogous to ERC20 support on Ethereum.
