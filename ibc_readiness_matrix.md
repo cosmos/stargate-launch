@@ -26,6 +26,11 @@ Would support for all ICS20 and additional application protocols. This involves 
 
 Integrator can interact with creating IBC connections and relaying packets. A user could send a token to a wallet on an IBC without first having to send it to a Cosmos Hub wallet.
 
+This requires familiarity with operating relayer software.
+
+- [Go Relayer](https://github.com/cosmos/relayer)
+- [Rust Relayer](https://github.com/informalsystems/ibc-rs#running-the-relayer) 
+
 **IBC Skill Level 4**
 
 Support for additional IBC protocols that may be relevant to users like Atomic Token Exchange over IBC or lending etc.  For example, initiating an IBC transaction to access a liquidity pool atomically from an exchange wallet.
