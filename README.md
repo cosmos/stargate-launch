@@ -14,13 +14,37 @@ Help us to get the word out–this is a major leap for the Cosmos Network and we
 
 ## Testnet
 
+### Uncoordinated Upgrade Completed 02-02-2021
+
+Upgrade instructions:
+
+1. Stop your gaia v3 instance 
+
+```
+killall gaiad
+```
+
+2. Backup your `.gaia` folder
+
+3. Install gaia v4 binary
+
+```
+git checkout v4.0.0
+make install
+```
+
+4. Start gaia v4.0.0 binary
+
+
+### Joining
+
 We are launching the final stargate testnet. We
 
 - [Genesis file](genesis.json)
 
 ```
 git clone https://github.com/cosmos/gaia
-git checkout v3.0.0
+git checkout v4.0.0
 make install
 ```
 
