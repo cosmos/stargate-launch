@@ -7,6 +7,11 @@ and [Gaia](https://github.com/cosmos/gaia) Github repositories.
 Its purpose is to provide a checklist for potential impact on deployments; however, the changelog located in each repository
 serves other important details, such as bug fixes and feature improvements.
 
+## Table of Contents
+
+- [Tendermint Changelog](#tendermint-changelog)
+- [Cosmos Changelog](#cosmos-sdk-changelog)
+
 # Tendermint Changelog
 
 ## v0.34.1
