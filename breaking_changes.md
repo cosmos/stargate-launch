@@ -9,8 +9,8 @@ serves other important details, such as bug fixes and feature improvements.
 
 ## Table of Contents
 
-- [Tendermint Changelog](#tendermint-changelog)
-- [Cosmos Changelog](#cosmos-sdk-changelog)
+- [Tendermint Changelog](#tendermint-changelog); Tendermint versions v0.32.13 - v0.34.1
+- [Cosmos Changelog](#cosmos-sdk-changelog); Cosmos SDK versions v0.37.14 - v0.40.0 
 
 # Tendermint Changelog
 
@@ -294,6 +294,24 @@ different modules:
 ## v0.32.13
 
 # Cosmos SDK Changelog
+
+## v0.41.0 - From release notes
+
+Support Amino JSON for IBC MsgTransfer
+This change breaks state backward compatibility.
+
+At the moment hardware wallets are unable to sign messages using SIGN_MODE_DIRECT because the cosmos ledger app does not support proto encoding andSIGN_MODE_TEXTUAL is not available yet.
+
+In order to enable hardware wallets users to interact with IBC, amino JSON support was added to MsgTransfer only.
+
+Counterparty.ChannelID not available in OnChanOpenAck callback implementation.
+This change breaks state backward compatibility.
+
+In a previous version the Counterparty.ChannelID was available for an OnChanOpenAck callback implementation (read via channelKeeper.GetChannel(). Due to a regression, the channelID is currently empty.
+
+The issue has been fixed by reordering IBC ChanOpenAck and ChanOpenConfirm to execute the core handlers logic first, followed by application callbacks.
+
+It breaks state backward compatibility because the current change consumes more gas, which means that in an updated node a TX might fail because it ran out of gas whilst in older versions it would be successful.
 
 ## [v0.40.0](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.40.0) - 2021-01-08
 
