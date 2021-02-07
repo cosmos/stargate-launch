@@ -44,8 +44,8 @@ Wallets currently participating in the Cosmos Stargate integration testing
 
 | Category  |  Company Name | Cosmos Stargate Status  |
 | ------------ | ------------ | ------------ |
-| Wallets | Cosmosstation | Integration underway  |
-| Wallets | Keplr | Integration underway  |
+| Wallets | Cosmosstation | Complete  |
+| Wallets | Keplr | Complete  |
 | Wallet | Atomic Wallet | Integration underway |
 | Wallet | Airgap | Integration underway |
 | Wallet | Cobo | Integration underway |
@@ -66,20 +66,20 @@ Exchanges currently participating in the Cosmos Stargate integration testing
 
 | Category  |  Company Name | Cosmos Stargate Status  |
 | ------------ | ------------ | ------------ |
-| Exchange | Binance  | Contact made  |
-| Exchange | Coinbase  | Integration underway |
+| Exchange | Binance  | On Schedule  |
+| Exchange | Coinbase  | On Schedule |
 | Exchange | Huobi  | Contact made  |
-| Exchange | Kraken  | Integration underway  |
+| Exchange | Kraken  | On Schedule  |
 | Exchange | FTX  | Integration underway  |
 | Exchange | KuCoin  | Contact made  |
 | Exchange | Poloniex | Integration underway |
 | Exchange | Upbit | Contact made |
-| Exchange | Bitfinex | Contact made |
+| Exchange | Bitfinex | On Schedule |
 | Exchange | Gate.io | Contact made |
 | Exchange | bitFlyer | Contact made |
 | Exchange | Luno | Contact made |
 | Exchange | Zaif | Contact made |
-| Exchange | Bittrex | Contact made |
+| Exchange | Bittrex | On Schedule |
 | Exchange | Coinone | Contact made |
 | Exchange | Bithumb | Contact made |
 | Exchange | Indodax | Contact made |
