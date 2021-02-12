@@ -66,7 +66,7 @@ Exchanges currently participating in the Cosmos Stargate integration testing
 
 | Category  |  Company Name | Cosmos Stargate Status  |
 | ------------ | ------------ | ------------ |
-| Exchange | Binance  | On Schedule  |
+| Exchange | Binance  | (Support Announced)[https://www.binance.com/en/support/announcement/d9833c59f090411fa9e1ad5199d64e02] |
 | Exchange | Coinbase  | On Schedule |
 | Exchange | Huobi  | Contact made  |
 | Exchange | Kraken  | On Schedule  |
