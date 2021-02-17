@@ -55,6 +55,11 @@ Our validator node for a persistent peer is available at
 6ae55f60f0951247985ccd52773312aa89413d1c@34.71.170.158:26656
 ```
 
+Seed Node
+```bash
+feeb2c3e89a69d09390c292fca9ef1c4eba084c5@35.193.131.167:26656
+```
+
 Please familiarize your self with the [Running a Node](https://github.com/cosmos/cosmos-sdk/tree/master/docs/run-node) documentation.
 
 
