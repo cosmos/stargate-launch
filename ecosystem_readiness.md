@@ -4,6 +4,8 @@ The Iqlusion team continues to reach out to a wide network of Cosmos ecosystem p
 ## Validators
 | Category  |  Company Name | Cosmos Stargate Status  |
 | ------------ | ------------ | ------------ |
+| Validators | Bison Trails | Genesis keys received |
+| Validators | P2P.ORG - P2P Validator | Genesis keys received |
 | Validators | Sikka | Genesis keys received  |
 | Validators | Dokia Capital | Genesis keys received  |
 | Validators | Multichain Ventures | Genesis keys received |
@@ -32,6 +34,9 @@ The Iqlusion team continues to reach out to a wide network of Cosmos ecosystem p
 | Validators | Sg-1 | Genesis keys received |
 | Validators | Blockscape | Genesis keys received |
 | Validators | Dawns World | Genesis keys received |
+| Validators | Stake Capital | Genesis keys received |
+| Validators | Alphemy Capital | Genesis keys received |
+| Validators | Kalpa Tech | Genesis keys received |
 
 
 ## Wallets
@@ -39,8 +44,8 @@ Wallets currently participating in the Cosmos Stargate integration testing
 
 | Category  |  Company Name | Cosmos Stargate Status  |
 | ------------ | ------------ | ------------ |
-| Wallets | Cosmosstation | Integration underway  |
-| Wallets | Keplr | Integration underway  |
+| Wallets | Cosmosstation | Complete  |
+| Wallets | Keplr | Complete  |
 | Wallet | Atomic Wallet | Integration underway |
 | Wallet | Airgap | Integration underway |
 | Wallet | Cobo | Integration underway |
@@ -61,21 +66,20 @@ Exchanges currently participating in the Cosmos Stargate integration testing
 
 | Category  |  Company Name | Cosmos Stargate Status  |
 | ------------ | ------------ | ------------ |
-| Exchange | Binance  | Contact made  |
-| Exchange | Coinbase  | Integration underway |
+| Exchange | Binance  | [Support Announced](https://www.binance.com/en/support/announcement/d9833c59f090411fa9e1ad5199d64e02) |
+| Exchange | Coinbase  | On Schedule |
 | Exchange | Huobi  | Contact made  |
-| Exchange | Kraken  | Integration underway  |
+| Exchange | Kraken  | On Schedule  |
 | Exchange | FTX  | Integration underway  |
 | Exchange | KuCoin  | Contact made  |
-| Exchange | Bitstamp  | Integration underway  |
 | Exchange | Poloniex | Integration underway |
 | Exchange | Upbit | Contact made |
-| Exchange | Bitfinex | Contact made |
+| Exchange | Bitfinex | On Schedule |
 | Exchange | Gate.io | Contact made |
 | Exchange | bitFlyer | Contact made |
 | Exchange | Luno | Contact made |
 | Exchange | Zaif | Contact made |
-| Exchange | Bittrex | Contact made |
+| Exchange | Bittrex | On Schedule |
 | Exchange | Coinone | Contact made |
 | Exchange | Bithumb | Contact made |
 | Exchange | Indodax | Contact made |
