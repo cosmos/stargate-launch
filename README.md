@@ -1,10 +1,10 @@
-
 # Stargate upgrade
 
 [Join the Cosmos Stargate announcements channel!](Cosmos Stargate announcements channel!)
 
 If you’re running a block explorer, wallet, exchange, validator, or any other service (eg. custody provider) that depends upon the Cosmos Hub or Cosmos ecosystem, you’ll want to pay attention, because this upgrade will involve substantial changes.
 
+- [Collection of breaking changes from changelogs](breaking_changes.md)
 - [Inter-Blockchain Communication (IBC)– cross-chain transactions](https://figment.network/resources/cosmos-stargate-upgrade-overview/#ibc)
 - [Protobuf Migration – blockchain performance & dev acceleration](https://figment.network/resources/cosmos-stargate-upgrade-overview/#proto)
 - [State Sync – minutes to sync new nodes](https://figment.network/resources/cosmos-stargate-upgrade-overview/#sync)
@@ -15,53 +15,60 @@ Help us to get the word out–this is a major leap for the Cosmos Network and we
 
 ## Testnet
 
-We've launched the third public alpha testnet `stargate-3` for the Stargate Upgrade on Monday September 21th.
+### Uncoordinated Upgrade Completed 02-02-2021
 
-Stargate-3 is a big testnet milestone for the Stargate initiative. 
+Upgrade instructions:
 
-This release fixes issues with Legacy Amino that were discovered in `stargate-1/2`. We believe that this version is now good to test for exchanges and wallets.
+1. Stop your gaia v3 instance 
 
-The following features are live on the testnet.
+```
+killall gaiad
+```
 
-* Legacy Amino
-* IBC
-* State-Sync 
+2. Backup your `.gaia` folder
+
+3. Install gaia v4 binary
+
+```
+git checkout v4.0.0
+make install
+```
+
+4. Start gaia v4.0.0 binary
 
 
-This testnet is intended for:
+### Joining
 
-* Testing wallets, exchanges and block explorers against the legacy Amino REST interface
-* Giving node operators and validators an opportunity to test their integrations against a work in progress version
-* Playing with new Stargate features including IBC but real testing of IBC will wait on Akash updating the Relayer and possibly a future testnet.
+We are launching the final stargate testnet. We
 
-We anticipate restarting this testnet with future integration targets. Once we have a migration script, we will launch a testnet with a simulated upgrade from cosmoshub-3.
+- [Genesis file](genesis.json)
+
+```
+git clone https://github.com/cosmos/gaia
+git checkout v4.0.0
+make install
+```
 
 Our validator node for a persistent peer is available at
 
-``` bash
-00d8e9c0df367296436854b580d9b069d3f1a5fd@34.123.30.100:26656
-```
-
-For users who want to test state sync, our validator node has tendermint rpc open on `34.123.10.100:26657`and we are snapshotting every 1000 blocks.
-
-As of 09/21/2020, the tagged `gaia` version is [stargate-3](https://github.com/cosmos/gaia/releases/tag/stargate-3)
-
-Remember this version now has a single binary instead of `gaiacli/gaiad` and much more configurable `app.toml`
-
 ```bash
-git clone https://github.com/cosmos/gaia
-git checkout stargate-3
-make build
+6ae55f60f0951247985ccd52773312aa89413d1c@34.71.170.158:26656
 ```
 
-
-
-The genesis file is available [here](genesis.json)
-The sha256sum of the genesis is
+Seed Node
 ```bash
-❯ sha256sum genesis.json
-346dac9029a686845ee7ffd711a0c2479a6422c10f92f31ded6da8c6f4efbbc5  genesis.json
+feeb2c3e89a69d09390c292fca9ef1c4eba084c5@35.193.131.167:26656
 ```
+
+Please familiarize your self with the [Running a Node](https://github.com/cosmos/cosmos-sdk/tree/master/docs/run-node) documentation.
+
+
+- Legacy Amino
+- IBC
+- State-Sync
+- Cosmovisor
+
+
 
 
 ## Statesync Configuration Options
@@ -78,13 +85,13 @@ Snapshot-interval specifies the block interval at which local state sync snapsho
 
 > NOTE: Please set this value to a non-zero value. This is required in order for other nodes to be able to utilize state-sync.
 
-``` bash
+```bash
 snapshot-interval = {{ .StateSync.SnapshotInterval }}
 ```
 
 Snapshot-keep-recent specifies the number of recent snapshots to keep and serve (0 to keep all).
 
-``` bash
+```bash
 snapshot-keep-recent = {{ .StateSync.SnapshotKeepRecent }}
 ```
 
@@ -100,4 +107,6 @@ These are disabled by default, out of caution - this is new code, and we wouldn'
 - [Week 8 Status August 26th, 2020](week8.md)
 - [Week 9 Status September 6th, 2020](week9.md)
 - [Week 10 & 11 Status September 16th, 2020](week10_11.md)
+- [Week 12 Status September 23, 2020](week12.md)
+
 - [Project Board](https://github.com/orgs/cosmosdevs/projects/1)
